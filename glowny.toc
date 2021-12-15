@@ -1,0 +1,18 @@
+\babel@toc {polish}{}
+\babel@toc {polish}{}
+\contentsline {chapter}{Streszczenie}{5}{chapter*.1}%
+\contentsline {chapter}{Wst\k ep}{11}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Tytu\IeC {\l } rozdzia\IeC {\l }u 1}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Podrozdzia\IeC {\l } 1}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Podpodrodzia\IeC {\l } 1}{13}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {2}Za\.z\'o\IeC {\l }\'c g\k e\'sl\k a ja\'z\'n}{17}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Rozdzia\IeC {\l } 3}{19}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Rozdzia\IeC {\l } 4}{21}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Rozdzia\IeC {\l } 5}{23}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Rozdzia\IeC {\l } 6}{25}{chapter.6}%
+\contentsline {chapter}{Podsumowanie}{27}{chapter*.7}%
+\contentsline {chapter}{Bibliografia}{29}{chapter*.8}%
+\contentsline {chapter}{Spis tabel}{31}{chapter*.9}%
+\contentsline {chapter}{Spis rysunk\'ow}{33}{chapter*.10}%
+\contentsline {chapter}{Spis listing\'ow}{35}{chapter*.11}%
+\contentsline {chapter}{Spis algorytm\'ow}{37}{chapter*.12}%
