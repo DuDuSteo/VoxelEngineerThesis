@@ -11,10 +11,35 @@ U.~Autor and W.~Kolejny.
 \newblock Tytu³ publikacji.
 \newblock {\em Nazwa czasopisma}, 12(2):132--145, May 2012.
 
+\bibitem{magicavoxel_page}
+@ephtracy.
+\newblock {MagicaVoxel}.
+\newblock \url{https://ephtracy.github.io}, stan z 04.02.2021 r.
+
+\bibitem{qubicle_page}
+Minddesk~Software GmbH.
+\newblock {Qubicle}.
+\newblock \url{https://www.minddesk.com}, stan z 04.02.2021 r.
+
+\bibitem{mega_voxels_play_page}
+LLC Go~Real~Games.
+\newblock {Mega Voxels Play}.
+\newblock \url{https://www.megavoxels.com}, stan z 04.02.2021 r.
+
+\bibitem{goxel_page}
+@guillaumechereau.
+\newblock {Goxel}.
+\newblock \url{https://goxel.xyz}, stan z 04.02.2021 r.
+
 \bibitem{inproceedings_1}
 B.~Inny.
 \newblock Tytu³ publikacji.
 \newblock In {\em Tytu³ ksi¹¿ki}, pages 5--32, Feb 2011.
+
+\bibitem{voxedit_beta_page}
+Pixowl.
+\newblock {VoxEdit Beta}.
+\newblock \url{https://www.voxedit.io}, stan z 04.02.2021 r.
 
 \bibitem{book_1}
 Z.~Test and K.~Nastêpny.
