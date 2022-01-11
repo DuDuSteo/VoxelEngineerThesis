@@ -1,4 +1,17 @@
-\chapter{Projekt system}
+\chapter{Projekt systemu}
+
+\section{W}
+
+Moje rozwi¹zanie do edycji trójwymiarowych obiektów sk³ada siê z trzech warstw:
+
+\begin{itemize}
+\item Warstwa widoku.
+\item Warstwa aplikacji.
+\item Warstwa obiektu.
+\end{itemize}
+
+
+
 
 \section{Wymagania funkcjonalne}
 
@@ -16,3 +29,92 @@
 \item Mo¿liwoœæ ponownego u¿ycia silnika 3D w innych projektach.
 \item Wysoka responsywnoœæ na zmiany w modelu (<16.6 ms).
 \end{itemize}
+
+\section{Interfejs graficzny}
+
+\section{Diagram przypadków u¿ycia i opisy}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\textwidth, keepaspectratio]{grafika/diagram-przypadkow-uzycia.png}
+\caption{Diagram przypadków u¿ycia, ¿ród³o: opracowanie w³asne} 
+\label{rys-diagram-przypadkow-uzycia}
+\end{figure}
+
+G³ównym narzêdziami w przypadku
+
+\begin{table}[htb]
+\centering
+\caption[Opis przypadku u¿ycia ,,Dodaj woksel'']{Opis przypadku u¿ycia ,,Dodaj woksel''}
+\begin{tabular}{|>{\bfseries}p{.3\textwidth}|p{.7\textwidth}|}
+\hline
+\rowcolor{Gray}
+\rowstyle{\bfseries}
+Sekcja & Treœæ \\\hline
+Uczestnicz¹cy aktorzy & U¿ytkownik, Widok, Aplikacja, Obiekt \\\hline
+Warunki wstêpne & W okienku ,,Edit Mode'' zaznaczony tryb ,,Add'' \\\hline
+Warunki koñcowe & Dodanie woksela do obiektu \\\hline
+Rezultat & Pojawienie siê woksela w miejscu wskazanym przez u¿ytkownika \\\hline
+Scenariusz g³ówny & 
+\begin{enumerate}[topsep=0pt, leftmargin=*]
+\item U¿ytkownik wybiera materia³ z listy, b¹dŸ dodaje swój w³asny i go
+zatwierdza.
+\item U¿ytkownik nacelowuje na interesuj¹c¹ go sciankê woksela, w celu postawienia na obok niej nowego woksela, po czym zatwierdza prawym przyciskiem myszy.
+\item Aplikacja przekazuje do obiektu dane klikniêcia.
+\item Obiekt aktualizuje strukturê danych.
+\item Widok zostaje odœwie¿ony w nastêpnej klatce.
+\item U¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
+\end{enumerate} \\\hline
+Scenariusz wyj¹tku & Zdarzenie: U¿ytkownik nie klikn¹³ na œciankê istniej¹cego woksela 
+
+Wynik: Brak dodania woksela do modelu 3D \\\hline
+Zale¿noœci czasowe & \begin{enumerate}[topsep=0pt, leftmargin=*]
+\item Czêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
+\item Typowy czas realizacji: 8.9 ms.
+\item Maksymalny czas realizacji: 33,2 ms. 
+\end{enumerate} \\\hline
+Wartoœci uzyskane przez aktorów po zakoñczeniu przypadków u¿ycia & \begin{enumerate}[topsep=0pt, leftmargin=*]
+\item Pojawienie siê woksela w miejscu i o materiale wybranym przez u¿ytkownika.
+\item Obiekt posiada zaktualizowan¹ strukturê o woksela.
+\end{enumerate} \\\hline
+\end{tabular}
+\label{tabela_wodaj_voksel}
+\end{table}
+
+\begin{table}[htb]
+\centering
+\caption[Opis przypadku u¿ycia ,,Usuñ woksel'']{Opis przypadku u¿ycia ,,Usuñ woksel''}
+\begin{tabular}{|>{\bfseries}p{.3\textwidth}|p{.7\textwidth}|}
+\hline
+\rowcolor{Gray}
+\rowstyle{\bfseries}
+Sekcja & Treœæ \\\hline
+Uczestnicz¹cy aktorzy & U¿ytkownik, Widok, Aplikacja, Obiekt  \\\hline
+Warunki wstêpne & W okienku ,,Edit Mode'' zaznaczony tryb ,,Remove''  \\\hline
+Warunki koñcowe & Usuniêcie wskazanego woksela z obiektu \\\hline
+Rezultat & Znikniêcie woksela w miejscu wskazanym przez u¿ytkownika \\\hline
+Scenariusz g³ówny & 
+\begin{enumerate}[topsep=0pt, leftmargin=*]
+\item U¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+prawym przyciskiem myszy.
+\item Aplikacja przekazuje do obiektu dane klikniêcia.
+\item Obiekt zwraca woksel zainteresowania.
+\item Aplikacja usuwa zwrócony woksel
+\item Widok zostaje odœwie¿ony w nastêpnej klatce.
+\item U¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
+\end{enumerate} \\\hline
+Scenariusz wyj¹tku & Zdarzenie: U¿ytkownik nie klikn¹³ w istniej¹cego woksela 
+
+Wynik: Brak usuniêcia woksela z modelu 3D \\\hline
+Zale¿noœci czasowe & \begin{enumerate}[topsep=0pt, leftmargin=*]
+\item Czêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
+\item Typowy czas realizacji: 5.9 ms.
+\item Maksymalny czas realizacji: 16,6 ms. 
+\end{enumerate} \\\hline
+Wartoœci uzyskane przez aktorów po zakoñczeniu przypadków u¿ycia & \begin{enumerate}[topsep=0pt, leftmargin=*]
+\item Znikniêcie woksela w miejscu wybranym przez u¿ytkownika.
+\item Obiekt posiada zaktualizowan¹ strukturê bez klikniêtego woksela.
+\end{enumerate} \\\hline
+\end{tabular}
+\label{tabela_usun_woksel}
+\end{table}
