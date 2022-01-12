@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.11)  11 JAN 2022 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.11)  11 JAN 2022 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -248,12 +248,11 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no b in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no k in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no W in font nullfont!
@@ -280,11 +279,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no d in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no . in font nullfont!
 ! Undefined control sequence.
@@ -845,25 +845,134 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 33--34
 []
  []
 
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \begin{figure}
+                   [htb]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
-l.35 \section
-             {Przypadki u¿ycia}
+l.37 \includegraphics
+                     [width=0.9\textwidth, keepaspectratio]{grafika/voxel-ed...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no z in font nullfont!
-Missing character: There is no y in font nullfont!
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   k
+l.37 \includegraphics[width=0.9\textwidth, k
+                                            eepaspectratio]{grafika/voxel-ed...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \caption
+             {Ekran startowy programu, ¿ród³o: opracowanie w³asne}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no u in font nullfont!
+Missing character: There is no , in font nullfont!
 
 ! LaTeX Error: Invalid UTF-8 byte "BF.
 
@@ -871,8 +980,113 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \section{Przypadki u¿
-                          ycia}
+l.38 \caption{Ekran startowy programu, ¿
+                                        ród³o: opracowanie w³asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ód³o).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \caption{Ekran startowy programu, ¿ród³o
+                                             : opracowanie w³asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no : in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ... startowy programu, ¿ród³o: opracowanie w³
+                                                  asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--41
+[]
+ []
+
+! Undefined control sequence.
+l.42 \section
+             {Diagram przypadków u¿ycia i opisy}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no k in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ówu¿).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \section{Diagram przypadków u¿
+                                   ycia i opisy}
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -883,8 +1097,314 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no y in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
+Overfull \hbox (20.0pt too wide) in paragraph at lines 42--43
+[]
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 \begin{figure}
+                   [htb]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.46 \includegraphics
+                     [width=0.9\textwidth, keepaspectratio]{grafika/diagram-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   k
+l.46 \includegraphics[width=0.9\textwidth, k
+                                            eepaspectratio]{grafika/diagram-...
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \caption
+             {Diagram przypadków u¿ycia, ¿ród³o: opracowanie w³asne}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no k in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ówu¿).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \caption{Diagram przypadków u¿
+                                   ycia, ¿ród³o: opracowanie w³asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte "BF.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \caption{Diagram przypadków u¿ycia, ¿
+                                          ród³o: opracowanie w³asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ód³o).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \caption{Diagram przypadków u¿ycia, ¿ród³o
+                                               : opracowanie w³asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no : in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ... przypadków u¿ycia, ¿ród³o: opracowanie w³
+                                                  asne}
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 44--50
+[]
+ []
+
+Missing character: There is no G in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte "B3.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 G³
+       ównym narzêdziami w przypadku
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ówny).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 G³ówny
+           m narzêdziami w przypadku
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte sequence (êdz).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 G³ównym narzêdz
+                    iami w przypadku
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no u in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--52
 []
  []
 
@@ -895,7 +1415,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \begin{table}
+l.53 \begin{table}
                   [htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -913,8 +1433,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \caption
-             [Opis przypadku u¿ycia \enquote{Dodaj woksel}]{Opis przypadku u...
+l.55 \caption
+             [Opis przypadku u¿ycia ,,Dodaj woksel'']{Opis przypadku u¿ycia ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -941,8 +1461,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \caption[Opis przypadku u¿
-                               ycia \enquote{Dodaj woksel}]{Opis przypadku u...
+l.55 \caption[Opis przypadku u¿
+                               ycia ,,Dodaj woksel'']{Opis przypadku u¿ycia ...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -954,15 +1474,8 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
-! Undefined control sequence.
-l.41 \caption[Opis przypadku u¿ycia \enquote
-                                            {Dodaj woksel}]{Opis przypadku u...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -974,6 +1487,8 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -996,8 +1511,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 ... \enquote{Dodaj woksel}]{Opis przypadku u¿
-                                                  ycia \enquote{Dodaj woksel}}
+l.55 ...u¿ycia ,,Dodaj woksel'']{Opis przypadku u¿
+                                                  ycia ,,Dodaj woksel''}
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -1008,15 +1523,8 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
-! Undefined control sequence.
-l.41 ...aj woksel}]{Opis przypadku u¿ycia \enquote
-                                                  {Dodaj woksel}}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -1028,10 +1536,12 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
+(Font)              <5> on input line 56.
 
 ! LaTeX Error: Illegal character in array arg.
 
@@ -1039,7 +1549,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
+l.56 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1052,7 +1562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
+l.56 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1060,7 +1570,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <recently read> \rowcolor 
                           
-l.44 \rowcolor
+l.58 \rowcolor
               {Gray}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1073,7 +1583,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.45 \rowstyle
+l.59 \rowstyle
               {\bfseries}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1097,7 +1607,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 Sekcja & Treœ
+l.60 Sekcja & Treœ
                   æ \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1112,7 +1622,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 Sekcja & Treœæ \\\hline
+l.60 Sekcja & Treœæ \\\hline
                             
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1137,7 +1647,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 Uczestnicz¹
+l.61 Uczestnicz¹
                 cy aktorzy & U¿ytkownik, Widok, Aplikacja, Obiekt \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1162,7 +1672,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 Uczestnicz¹cy aktorzy & U¿
+l.61 Uczestnicz¹cy aktorzy & U¿
                                ytkownik, Widok, Aplikacja, Obiekt \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1218,8 +1728,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 Warunki wstêpn
-                   e & W okienku \enquote{Edit Mode} zaznaczony tryb \enquot...
+l.62 Warunki wstêpn
+                   e & W okienku ,,Edit Mode'' zaznaczony tryb ,,Add'' \\\hline
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1236,15 +1746,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no u in font nullfont!
-! Undefined control sequence.
-l.48 Warunki wstêpne & W okienku \enquote
-                                         {Edit Mode} zaznaczony tryb \enquot...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -1253,6 +1756,8 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no z in font nullfont!
@@ -1267,18 +1772,13 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no b in font nullfont!
-! Undefined control sequence.
-l.48 ...nquote{Edit Mode} zaznaczony tryb \enquote
-                                                  {Ad}d \\\hline
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1295,7 +1795,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 Warunki koñcow
+l.63 Warunki koñcow
                    e & Dodanie woksela do obiektu \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1354,7 +1854,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 Rezultat & Pojawienie siê wo
+l.64 Rezultat & Pojawienie siê wo
                                  ksela w miejscu wskazanym przez u¿ytkownika...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1398,7 +1898,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 ...e siê woksela w miejscu wskazanym przez u¿
+l.64 ...e siê woksela w miejscu wskazanym przez u¿
                                                   ytkownika \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1433,7 +1933,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 Scenariusz g³
+l.65 Scenariusz g³
                   ówny &
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1448,7 +1948,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 Scenariusz g³ówny
+l.65 Scenariusz g³ówny
                        &
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1488,7 +1988,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item U
+l.67 \item U
             ¿ytkownik wybiera materia³ z listy, b¹dŸ dodaje swój w³asny i go
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1500,7 +2000,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item U
+l.67 \item U
             ¿ytkownik wybiera materia³ z listy, b¹dŸ dodaje swój w³asny i go
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1512,7 +2012,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item U
+l.67 \item U
             ¿ytkownik wybiera materia³ z listy, b¹dŸ dodaje swój w³asny i go
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1525,7 +2025,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item U¿
+l.67 \item U¿
              ytkownik wybiera materia³ z listy, b¹dŸ dodaje swój w³asny i go
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1562,7 +2062,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item U¿ytkownik wybiera materia³
+l.67 \item U¿ytkownik wybiera materia³
                                        z listy, b¹dŸ dodaje swój w³asny i go
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1585,7 +2085,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \item U¿ytkownik wybiera materia³ z listy, b¹
+l.67 \item U¿ytkownik wybiera materia³ z listy, b¹
                                                   dŸ dodaje swój w³asny i go
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1601,7 +2101,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ... U¿ytkownik wybiera materia³ z listy, b¹dŸ
+l.67 ... U¿ytkownik wybiera materia³ z listy, b¹dŸ
                                                    dodaje swój w³asny i go
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1624,7 +2124,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...iera materia³ z listy, b¹dŸ dodaje swój w³
+l.67 ...iera materia³ z listy, b¹dŸ dodaje swój w³
                                                   asny i go
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1657,7 +2157,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \item U
+l.69 \item U
             ¿ytkownik nacelowuje na interesuj¹c¹ go sciankê woksela, w celu ...
 
 Try typing  <return>  to proceed.
@@ -1670,7 +2170,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \item U
+l.69 \item U
             ¿ytkownik nacelowuje na interesuj¹c¹ go sciankê woksela, w celu ...
 
 Try typing  <return>  to proceed.
@@ -1683,7 +2183,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \item U
+l.69 \item U
             ¿ytkownik nacelowuje na interesuj¹c¹ go sciankê woksela, w celu ...
 
 Try typing  <return>  to proceed.
@@ -1697,7 +2197,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \item U¿
+l.69 \item U¿
              ytkownik nacelowuje na interesuj¹c¹ go sciankê woksela, w celu ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1742,7 +2242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \item U¿ytkownik nacelowuje na interesuj¹
+l.69 \item U¿ytkownik nacelowuje na interesuj¹
                                               c¹ go sciankê woksela, w celu ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1759,7 +2259,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 \item U¿ytkownik nacelowuje na interesuj¹c¹
+l.69 \item U¿ytkownik nacelowuje na interesuj¹c¹
                                                  go sciankê woksela, w celu ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1783,7 +2283,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 ...k nacelowuje na interesuj¹c¹ go sciankê wo
+l.69 ...k nacelowuje na interesuj¹c¹ go sciankê wo
                                                   ksela, w celu postawienia ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -1816,31 +2316,20 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no j in font nullfont!
-
-! LaTeX Error: Invalid UTF-8 byte "9C.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 ...iankê woksela, w celu postawienia na tej œ
-                                                  ciance woksela, po czym za...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-Missing character: There is no c in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no k in font nullfont!
@@ -1895,7 +2384,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \item A
+l.70 \item A
             plikacja przekazuje do obiektu dane klikniêcia.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1907,7 +2396,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \item A
+l.70 \item A
             plikacja przekazuje do obiektu dane klikniêcia.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1919,7 +2408,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \item A
+l.70 \item A
             plikacja przekazuje do obiektu dane klikniêcia.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1969,7 +2458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 ...kacja przekazuje do obiektu dane klikniêci
+l.70 ...kacja przekazuje do obiektu dane klikniêci
                                                   a.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -1986,7 +2475,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \item O
+l.71 \item O
             biekt aktualizuje strukturê danych.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1998,7 +2487,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \item O
+l.71 \item O
             biekt aktualizuje strukturê danych.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2010,7 +2499,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \item O
+l.71 \item O
             biekt aktualizuje strukturê danych.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2047,7 +2536,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \item Obiekt aktualizuje strukturê da
+l.71 \item Obiekt aktualizuje strukturê da
                                           nych.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2067,7 +2556,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \item W
+l.72 \item W
             idok zostaje odœwie¿ony w nastêpnej klatce.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2079,7 +2568,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \item W
+l.72 \item W
             idok zostaje odœwie¿ony w nastêpnej klatce.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2091,7 +2580,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \item W
+l.72 \item W
             idok zostaje odœwie¿ony w nastêpnej klatce.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2117,7 +2606,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \item Widok zostaje odœ
+l.72 \item Widok zostaje odœ
                             wie¿ony w nastêpnej klatce.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2135,7 +2624,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \item Widok zostaje odœwie¿
+l.72 \item Widok zostaje odœwie¿
                                 ony w nastêpnej klatce.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2158,7 +2647,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 \item Widok zostaje odœwie¿ony w nastêpn
+l.72 \item Widok zostaje odœwie¿ony w nastêpn
                                              ej klatce.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2182,7 +2671,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \item U
+l.73 \item U
             ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2194,7 +2683,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \item U
+l.73 \item U
             ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2206,7 +2695,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \item U
+l.73 \item U
             ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2219,7 +2708,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \item U¿
+l.73 \item U¿
              ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2263,7 +2752,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 \item U¿ytkownik widzi efekt swojego dzia³
+l.73 \item U¿ytkownik widzi efekt swojego dzia³
                                                ania na modelu 3D.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2293,7 +2782,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \end{enumerate}
+l.74 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2305,7 +2794,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \end{enumerate}
+l.74 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2317,7 +2806,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \end{enumerate}
+l.74 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2342,7 +2831,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 Scenariusz wyj¹
+l.75 Scenariusz wyj¹
                     tku & Zdarzenie: U¿ytkownik nie klikn¹³ na œciankê istni...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2372,7 +2861,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 Scenariusz wyj¹tku & Zdarzenie: U¿
+l.75 Scenariusz wyj¹tku & Zdarzenie: U¿
                                        ytkownik nie klikn¹³ na œciankê istni...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2404,7 +2893,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...wyj¹tku & Zdarzenie: U¿ytkownik nie klikn¹
+l.75 ...wyj¹tku & Zdarzenie: U¿ytkownik nie klikn¹
                                                   ³ na œciankê istniej¹cego ...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2420,7 +2909,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...yj¹tku & Zdarzenie: U¿ytkownik nie klikn¹³
+l.75 ...yj¹tku & Zdarzenie: U¿ytkownik nie klikn¹³
                                                    na œciankê istniej¹cego w...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2438,7 +2927,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...u & Zdarzenie: U¿ytkownik nie klikn¹³ na œ
+l.75 ...u & Zdarzenie: U¿ytkownik nie klikn¹³ na œ
                                                   ciankê istniej¹cego woksela
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2458,7 +2947,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...enie: U¿ytkownik nie klikn¹³ na œciankê is
+l.75 ...enie: U¿ytkownik nie klikn¹³ na œciankê is
                                                   tniej¹cego woksela
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2478,7 +2967,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...U¿ytkownik nie klikn¹³ na œciankê istniej¹
+l.75 ...U¿ytkownik nie klikn¹³ na œciankê istniej¹
                                                   cego woksela
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2542,7 +3031,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 Zale¿
+l.78 Zale¿
           noœci czasowe & \begin{enumerate}[topsep=0pt, leftmargin=*]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2559,7 +3048,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 Zale¿noœ
+l.78 Zale¿noœ
              ci czasowe & \begin{enumerate}[topsep=0pt, leftmargin=*]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2608,7 +3097,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item C
+l.79 \item C
             zêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2620,7 +3109,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item C
+l.79 \item C
             zêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2632,7 +3121,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item C
+l.79 \item C
             zêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2646,7 +3135,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item Czêst
+l.79 \item Czêst
                 otliwoœæ wykonania: 0 lub wiêcej na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2667,7 +3156,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item Czêstotliwoœ
+l.79 \item Czêstotliwoœ
                        æ wykonania: 0 lub wiêcej na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2682,7 +3171,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item Czêstotliwoœæ wy
+l.79 \item Czêstotliwoœæ wy
                            konania: 0 lub wiêcej na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2711,7 +3200,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item Czêstotliwoœæ wykonania: 0 lub wiêce
+l.79 \item Czêstotliwoœæ wykonania: 0 lub wiêce
                                                j na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2733,7 +3222,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \item
+l.80 \item
            Typowy czas realizacji: 8.9 ms.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -2775,7 +3264,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \item M
+l.81 \item M
             aksymalny czas realizacji: 33,2 ms.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2787,7 +3276,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \item M
+l.81 \item M
             aksymalny czas realizacji: 33,2 ms.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2799,7 +3288,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \item M
+l.81 \item M
             aksymalny czas realizacji: 33,2 ms.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2843,7 +3332,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \end{enumerate}
+l.82 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2855,7 +3344,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \end{enumerate}
+l.82 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2867,7 +3356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \end{enumerate}
+l.82 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2884,7 +3373,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 Wartoœ
+l.83 Wartoœ
            ci uzyskane przez aktorów po zakoñczeniu przypadków u¿ycia & \beg...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2920,7 +3409,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 Wartoœci uzyskane przez aktorów po
+l.83 Wartoœci uzyskane przez aktorów po
                                         zakoñczeniu przypadków u¿ycia & \beg...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2940,7 +3429,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 Wartoœci uzyskane przez aktorów po zakoñcze
+l.83 Wartoœci uzyskane przez aktorów po zakoñcze
                                                 niu przypadków u¿ycia & \beg...
 
 The document does not appear to be in UTF-8 encoding.
@@ -2967,7 +3456,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 ...przez aktorów po zakoñczeniu przypadków u¿
+l.83 ...przez aktorów po zakoñczeniu przypadków u¿
                                                   ycia & \begin{enumerate}[t...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3012,7 +3501,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \item P
+l.84 \item P
             ojawienie siê woksela w miejscu i o materiale wybranym przez u¿y...
 
 Try typing  <return>  to proceed.
@@ -3025,7 +3514,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \item P
+l.84 \item P
             ojawienie siê woksela w miejscu i o materiale wybranym przez u¿y...
 
 Try typing  <return>  to proceed.
@@ -3038,7 +3527,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \item P
+l.84 \item P
             ojawienie siê woksela w miejscu i o materiale wybranym przez u¿y...
 
 Try typing  <return>  to proceed.
@@ -3063,7 +3552,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \item Pojawienie siê wo
+l.84 \item Pojawienie siê wo
                             ksela w miejscu i o materiale wybranym przez u¿y...
 
 The document does not appear to be in UTF-8 encoding.
@@ -3117,7 +3606,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 ... w miejscu i o materiale wybranym przez u¿
+l.84 ... w miejscu i o materiale wybranym przez u¿
                                                   ytkownika.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3142,8 +3631,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \item O
-            biekt posiada zaktualizowan¹ strukturê o woksel.
+l.85 \item O
+            biekt posiada zaktualizowan¹ strukturê o woksela.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3154,8 +3643,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \item O
-            biekt posiada zaktualizowan¹ strukturê o woksel.
+l.85 \item O
+            biekt posiada zaktualizowan¹ strukturê o woksela.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3166,8 +3655,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \item O
-            biekt posiada zaktualizowan¹ strukturê o woksel.
+l.85 \item O
+            biekt posiada zaktualizowan¹ strukturê o woksela.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3204,8 +3693,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 \item Obiekt posiada zaktualizowan¹
-                                         strukturê o woksel.
+l.85 \item Obiekt posiada zaktualizowan¹
+                                         strukturê o woksela.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3227,8 +3716,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 ...biekt posiada zaktualizowan¹ strukturê o w
-                                                  oksel.
+l.85 ...biekt posiada zaktualizowan¹ strukturê o w
+                                                  oksela.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3240,6 +3729,7 @@ Missing character: There is no k in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -3248,7 +3738,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \end{enumerate}
+l.86 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3260,7 +3750,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \end{enumerate}
+l.86 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3272,7 +3762,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 \end{enumerate}
+l.86 \end{enumerate}
                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3284,19 +3774,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \end{table}
+l.89 \end{table}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 39--76
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--90
 []
  []
 
 
-Overfull \hbox (2457.62502pt too wide) in paragraph at lines 39--76
+Overfull \hbox (2457.62502pt too wide) in paragraph at lines 53--90
 []
  []
 
@@ -3307,7 +3797,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \begin{table}
+l.91 \begin{table}
                   [htb]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3325,8 +3815,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \caption
-             [Opis przypadku u¿ycia Usuñ woksel]{Opis przypadku u¿ycia Usuñ ...
+l.93 \caption
+             [Opis przypadku u¿ycia ,,Usuñ woksel'']{Opis przypadku u¿ycia ,...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3353,8 +3843,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \caption[Opis przypadku u¿
-                               ycia Usuñ woksel]{Opis przypadku u¿ycia Usuñ ...
+l.93 \caption[Opis przypadku u¿
+                               ycia ,,Usuñ woksel'']{Opis przypadku u¿ycia ,...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3366,6 +3856,8 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no U in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -3376,8 +3868,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \caption[Opis przypadku u¿ycia Usuñ wok
-                                            sel]{Opis przypadku u¿ycia Usuñ ...
+l.93 \caption[Opis przypadku u¿ycia ,,Usuñ wok
+                                              sel'']{Opis przypadku u¿ycia ,...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3388,6 +3880,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no O in font nullfont!
 Missing character: There is no p in font nullfont!
@@ -3410,8 +3904,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...adku u¿ycia Usuñ woksel]{Opis przypadku u¿
-                                                  ycia Usuñ woksel}
+l.93 ... u¿ycia ,,Usuñ woksel'']{Opis przypadku u¿
+                                                  ycia ,,Usuñ woksel''}
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3422,6 +3916,8 @@ Missing character: There is no y in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no U in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
@@ -3432,8 +3928,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...suñ woksel]{Opis przypadku u¿ycia Usuñ wok
-                                                  sel}
+l.93 ...woksel'']{Opis przypadku u¿ycia ,,Usuñ wok
+                                                  sel''}
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3443,6 +3939,8 @@ Alternatively, save the file in UTF-8 using your editor or another tool
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 
 ! LaTeX Error: Illegal character in array arg.
 
@@ -3450,7 +3948,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
+l.94 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3463,7 +3961,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
+l.94 ...bfseries}p{.3\textwidth}|p{.7\textwidth}|}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3471,7 +3969,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Undefined control sequence.
 <recently read> \rowcolor 
                           
-l.82 \rowcolor
+l.96 \rowcolor
               {Gray}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3484,7 +3982,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no y in font nullfont!
 ! Undefined control sequence.
-l.83 \rowstyle
+l.97 \rowstyle
               {\bfseries}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3508,7 +4006,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 Sekcja & Treœ
+l.98 Sekcja & Treœ
                   æ \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3523,7 +4021,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 Sekcja & Treœæ \\\hline
+l.98 Sekcja & Treœæ \\\hline
                             
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3548,7 +4046,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 Uczestnicz¹
+l.99 Uczestnicz¹
                 cy aktorzy & U¿ytkownik, Widok, Aplikacja, Obiekt  \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3573,7 +4071,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 Uczestnicz¹cy aktorzy & U¿
+l.99 Uczestnicz¹cy aktorzy & U¿
                                ytkownik, Widok, Aplikacja, Obiekt  \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3629,8 +4127,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 Warunki wstêpn
-                   e & W okienku Edit Mode zaznaczony tryb Remove  \\\hline
+l.100 Warunki wstêpn
+                    e & W okienku ,,Edit Mode'' zaznaczony tryb ,,Remove''  ...
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3646,6 +4145,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no u in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no E in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -3654,6 +4155,8 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no z in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no z in font nullfont!
@@ -3668,12 +4171,16 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no b in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -3690,8 +4197,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 Warunki koñcow
-                   e & Usuniêcie wskazanego woksela z obiektu \\\hline
+l.101 Warunki koñcow
+                    e & Usuniêcie wskazanego woksela z obiektu \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3711,8 +4218,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 Warunki koñcowe & Usuniêci
-                               e wskazanego woksela z obiektu \\\hline
+l.101 Warunki koñcowe & Usuniêci
+                                e wskazanego woksela z obiektu \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3766,8 +4273,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 Rezultat & Znikniêci
-                         e woksela w miejscu wskazanym przez u¿ytkownika \\\...
+l.102 Rezultat & Znikniêci
+                          e woksela w miejscu wskazanym przez u¿ytkownika \\...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3813,7 +4320,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 ...iêcie woksela w miejscu wskazanym przez u¿
+l.102 ...êcie woksela w miejscu wskazanym przez u¿
                                                   ytkownika \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -3848,8 +4355,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 Scenariusz g³
-                  ówny &
+l.103 Scenariusz g³
+                   ówny &
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3863,8 +4370,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 Scenariusz g³ówny
-                       &
+l.103 Scenariusz g³ówny
+                        &
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3903,8 +4410,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \item U
-            ¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+l.105 \item U
+             ¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3915,8 +4423,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \item U
-            ¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+l.105 \item U
+             ¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3927,8 +4436,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \item U
-            ¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+l.105 \item U
+             ¿ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3940,8 +4450,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \item U¿
-             ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+l.105 \item U¿
+              ytkownik nacelowuje na interesuj¹cy go woksel, po czym zatwierdza
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -3984,8 +4495,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \item U¿ytkownik nacelowuje na interesuj¹
-                                              cy go woksel, po czym zatwierdza
+l.105 \item U¿ytkownik nacelowuje na interesuj¹
+                                               cy go woksel, po czym zatwierdza
+
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -4049,8 +4561,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \item A
-            plikacja przekazuje do obiektu dane klikniêcia.
+l.107 \item A
+             plikacja przekazuje do obiektu dane klikniêcia.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4061,8 +4573,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \item A
-            plikacja przekazuje do obiektu dane klikniêcia.
+l.107 \item A
+             plikacja przekazuje do obiektu dane klikniêcia.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4073,8 +4585,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \item A
-            plikacja przekazuje do obiektu dane klikniêcia.
+l.107 \item A
+             plikacja przekazuje do obiektu dane klikniêcia.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4123,7 +4635,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 ...kacja przekazuje do obiektu dane klikniêci
+l.107 ...acja przekazuje do obiektu dane klikniêci
                                                   a.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4140,8 +4652,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \item O
-            biekt zwraca woksel zainteresowania.
+l.108 \item O
+             biekt zwraca woksel zainteresowania.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4152,8 +4664,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \item O
-            biekt zwraca woksel zainteresowania.
+l.108 \item O
+             biekt zwraca woksel zainteresowania.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4164,8 +4676,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \item O
-            biekt zwraca woksel zainteresowania.
+l.108 \item O
+             biekt zwraca woksel zainteresowania.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4210,8 +4722,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \item A
-            plikacja usuwa
+l.109 \item A
+             plikacja usuwa zwrócony woksel
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4222,8 +4734,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \item A
-            plikacja usuwa
+l.109 \item A
+             plikacja usuwa zwrócony woksel
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4234,8 +4746,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \item A
-            plikacja usuwa
+l.109 \item A
+             plikacja usuwa zwrócony woksel
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4253,6 +4765,31 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no w in font nullfont!
 Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: Invalid UTF-8 byte sequence (ócon).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 \item Aplikacja usuwa zwrócon
+                                   y woksel
+The document does not appear to be in UTF-8 encoding.
+Try adding \UseRawInputEncoding as the first line of the file
+or specify an encoding such as \usepackage [latin1]{inputenc}
+in the document preamble.
+Alternatively, save the file in UTF-8 using your editor or another tool
+
+Missing character: There is no y in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -4260,8 +4797,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \item W
-            idok zostaje odœwie¿ony w nastêpnej klatce.
+l.110 \item W
+             idok zostaje odœwie¿ony w nastêpnej klatce.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4272,8 +4809,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \item W
-            idok zostaje odœwie¿ony w nastêpnej klatce.
+l.110 \item W
+             idok zostaje odœwie¿ony w nastêpnej klatce.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4284,8 +4821,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \item W
-            idok zostaje odœwie¿ony w nastêpnej klatce.
+l.110 \item W
+             idok zostaje odœwie¿ony w nastêpnej klatce.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4310,8 +4847,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \item Widok zostaje odœ
-                            wie¿ony w nastêpnej klatce.
+l.110 \item Widok zostaje odœ
+                             wie¿ony w nastêpnej klatce.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -4328,8 +4865,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \item Widok zostaje odœwie¿
-                                ony w nastêpnej klatce.
+l.110 \item Widok zostaje odœwie¿
+                                 ony w nastêpnej klatce.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -4351,8 +4888,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \item Widok zostaje odœwie¿ony w nastêpn
-                                             ej klatce.
+l.110 \item Widok zostaje odœwie¿ony w nastêpn
+                                              ej klatce.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -4375,8 +4912,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \item U
-            ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
+l.111 \item U
+             ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4387,8 +4924,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \item U
-            ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
+l.111 \item U
+             ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4399,8 +4936,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \item U
-            ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
+l.111 \item U
+             ¿ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4412,8 +4949,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \item U¿
-             ytkownik widzi efekt swojego dzia³ania na modelu 3D.
+l.111 \item U¿
+              ytkownik widzi efekt swojego dzia³ania na modelu 3D.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -4456,8 +4993,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \item U¿ytkownik widzi efekt swojego dzia³
-                                               ania na modelu 3D.
+l.111 \item U¿ytkownik widzi efekt swojego dzia³
+                                                ania na modelu 3D.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
 or specify an encoding such as \usepackage [latin1]{inputenc}
@@ -4486,8 +5023,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{enumerate}
-                     \\\hline
+l.112 \end{enumerate}
+                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4498,8 +5035,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{enumerate}
-                     \\\hline
+l.112 \end{enumerate}
+                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4510,8 +5047,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \end{enumerate}
-                     \\\hline
+l.112 \end{enumerate}
+                      \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4535,8 +5072,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 Scenariusz wyj¹
-                    tku & Zdarzenie: U¿ytkownik nie klikn¹³ w istniej¹cego w...
+l.113 Scenariusz wyj¹
+                     tku & Zdarzenie: U¿ytkownik nie klikn¹³ w istniej¹cego ...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4565,8 +5102,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 Scenariusz wyj¹tku & Zdarzenie: U¿
-                                       ytkownik nie klikn¹³ w istniej¹cego w...
+l.113 Scenariusz wyj¹tku & Zdarzenie: U¿
+                                        ytkownik nie klikn¹³ w istniej¹cego ...
 
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4597,7 +5134,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...wyj¹tku & Zdarzenie: U¿ytkownik nie klikn¹
+l.113 ...yj¹tku & Zdarzenie: U¿ytkownik nie klikn¹
                                                   ³ w istniej¹cego woksela
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4612,7 +5149,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...yj¹tku & Zdarzenie: U¿ytkownik nie klikn¹³
+l.113 ...j¹tku & Zdarzenie: U¿ytkownik nie klikn¹³
                                                    w istniej¹cego woksela
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4635,7 +5172,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...arzenie: U¿ytkownik nie klikn¹³ w istniej¹
+l.113 ...rzenie: U¿ytkownik nie klikn¹³ w istniej¹
                                                   cego woksela
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4676,7 +5213,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 Wynik: Brak usuniêci
+l.115 Wynik: Brak usuniêci
                           a woksela z modelu 3D \\\hline
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4712,7 +5249,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 Zale¿
+l.116 Zale¿
            noœci czasowe & \begin{enumerate}[topsep=0pt, leftmargin=*]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4729,7 +5266,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 Zale¿noœ
+l.116 Zale¿noœ
               ci czasowe & \begin{enumerate}[topsep=0pt, leftmargin=*]
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4778,7 +5315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item C
+l.117 \item C
              zêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4790,7 +5327,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item C
+l.117 \item C
              zêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4802,7 +5339,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item C
+l.117 \item C
              zêstotliwoœæ wykonania: 0 lub wiêcej na sesjê.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4816,7 +5353,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item Czêst
+l.117 \item Czêst
                  otliwoœæ wykonania: 0 lub wiêcej na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4837,7 +5374,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item Czêstotliwoœ
+l.117 \item Czêstotliwoœ
                         æ wykonania: 0 lub wiêcej na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4852,7 +5389,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item Czêstotliwoœæ wy
+l.117 \item Czêstotliwoœæ wy
                             konania: 0 lub wiêcej na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4881,7 +5418,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \item Czêstotliwoœæ wykonania: 0 lub wiêce
+l.117 \item Czêstotliwoœæ wykonania: 0 lub wiêce
                                                 j na sesjê.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4903,7 +5440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \item
+l.118 \item
             Typowy czas realizacji: 5.9 ms.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -4945,7 +5482,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \item M
+l.119 \item M
              aksymalny czas realizacji: 16,6 ms.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4957,7 +5494,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \item M
+l.119 \item M
              aksymalny czas realizacji: 16,6 ms.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4969,7 +5506,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \item M
+l.119 \item M
              aksymalny czas realizacji: 16,6 ms.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5013,7 +5550,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \end{enumerate}
+l.120 \end{enumerate}
                       \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5025,7 +5562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \end{enumerate}
+l.120 \end{enumerate}
                       \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5037,7 +5574,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \end{enumerate}
+l.120 \end{enumerate}
                       \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5054,7 +5591,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 Wartoœ
+l.121 Wartoœ
             ci uzyskane przez aktorów po zakoñczeniu przypadków u¿ycia & \be...
 
 The document does not appear to be in UTF-8 encoding.
@@ -5090,7 +5627,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 Wartoœci uzyskane przez aktorów po
+l.121 Wartoœci uzyskane przez aktorów po
                                          zakoñczeniu przypadków u¿ycia & \be...
 
 The document does not appear to be in UTF-8 encoding.
@@ -5110,7 +5647,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 Wartoœci uzyskane przez aktorów po zakoñcze
+l.121 Wartoœci uzyskane przez aktorów po zakoñcze
                                                  niu przypadków u¿ycia & \be...
 
 The document does not appear to be in UTF-8 encoding.
@@ -5137,7 +5674,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 ...rzez aktorów po zakoñczeniu przypadków u¿
+l.121 ...rzez aktorów po zakoñczeniu przypadków u¿
                                                   ycia & \begin{enumerate}[t...
 
 The document does not appear to be in UTF-8 encoding.
@@ -5182,7 +5719,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \item Z
+l.122 \item Z
              nikniêcie woksela w miejscu wybranym przez u¿ytkownika.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5194,7 +5731,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \item Z
+l.122 \item Z
              nikniêcie woksela w miejscu wybranym przez u¿ytkownika.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5206,7 +5743,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \item Z
+l.122 \item Z
              nikniêcie woksela w miejscu wybranym przez u¿ytkownika.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5224,7 +5761,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 \item Znikniêci
+l.122 \item Znikniêci
                      e woksela w miejscu wybranym przez u¿ytkownika.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -5269,7 +5806,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 ...iêcie woksela w miejscu wybranym przez u¿
+l.122 ...iêcie woksela w miejscu wybranym przez u¿
                                                   ytkownika.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -5294,7 +5831,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \item O
+l.123 \item O
              biekt posiada zaktualizowan¹ strukturê bez klikniêtego woksela.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5306,7 +5843,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \item O
+l.123 \item O
              biekt posiada zaktualizowan¹ strukturê bez klikniêtego woksela.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5318,7 +5855,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \item O
+l.123 \item O
              biekt posiada zaktualizowan¹ strukturê bez klikniêtego woksela.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5356,7 +5893,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \item Obiekt posiada zaktualizowan¹
+l.123 \item Obiekt posiada zaktualizowan¹
                                           strukturê bez klikniêtego woksela.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -5379,7 +5916,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...biekt posiada zaktualizowan¹ strukturê be
+l.123 ...biekt posiada zaktualizowan¹ strukturê be
                                                   z klikniêtego woksela.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -5401,7 +5938,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...da zaktualizowan¹ strukturê bez klikniête
+l.123 ...da zaktualizowan¹ strukturê bez klikniête
                                                   go woksela.
 The document does not appear to be in UTF-8 encoding.
 Try adding \UseRawInputEncoding as the first line of the file
@@ -5426,7 +5963,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{enumerate}
+l.124 \end{enumerate}
                       \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5438,7 +5975,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{enumerate}
+l.124 \end{enumerate}
                       \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5450,7 +5987,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \end{enumerate}
+l.124 \end{enumerate}
                       \\\hline
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5462,7 +5999,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \end{table}
+l.127 \end{table}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5476,11 +6013,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 53 strings out of 478621
- 675 string characters out of 2844219
+ 57 strings out of 478621
+ 704 string characters out of 2844219
  302824 words of memory out of 3000000
- 18276 multiletter control sequences out of 15000+600000
+ 18280 multiletter control sequences out of 15000+600000
  403738 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,8n,17p,179b,173s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 19i,8n,17p,184b,173s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
