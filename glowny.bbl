@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{misc_1}
 J.~Autor.
@@ -11,10 +11,36 @@ U.~Autor and W.~Kolejny.
 \newblock Tytu³ publikacji.
 \newblock {\em Nazwa czasopisma}, 12(2):132--145, May 2012.
 
+\bibitem{glm_page}
+G-Truc Creation.
+\newblock {OpenGL Mathematics (GLM)}.
+\newblock \url{https://glm.g-truc.net/0.9.9/index.html}, stan z 18.02.2021 r.
+
+\bibitem{glad_page}
+Dav1dde.
+\newblock {glad}.
+\newblock \url{https://glad.dav1d.de/}, stan z 18.02.2021 r.
+
+\bibitem{learn_opengl}
+Joey de~Vries.
+\newblock {\em {Learn OpenGL: Learn modern OpenGL graphics programming in a
+  step-by-step fashion.}}
+\newblock KW Publishers, s. 69-, 2020.
+
+\bibitem{glfw_page}
+elmindreda.
+\newblock {GLFW}.
+\newblock \url{https://www.glfw.org/}, stan z 18.02.2021 r.
+
 \bibitem{magicavoxel_page}
-@ephtracy.
+ephtracy.
 \newblock {MagicaVoxel}.
 \newblock \url{https://ephtracy.github.io}, stan z 04.02.2021 r.
+
+\bibitem{iso_iec_page}
+International~Organization for Standardization.
+\newblock {ISO/IEC 14882:2011 standard}.
+\newblock \url{https://www.iso.org/standard/50372.html}, stan z 18.02.2021 r.
 
 \bibitem{qubicle_page}
 Minddesk~Software GmbH.
@@ -26,8 +52,21 @@ LLC Go~Real~Games.
 \newblock {Mega Voxels Play}.
 \newblock \url{https://www.megavoxels.com}, stan z 04.02.2021 r.
 
+\bibitem{opengl_loading_library_page}
+The~Khronos Group.
+\newblock {OpenGL Loading Library}.
+\newblock \url{https://www.khronos.org/opengl/wiki/OpenGL_Loading_Library},
+  stan z 18.02.2021 r.
+
+\bibitem{glsl_page}
+The~Khronos Group.
+\newblock {The OpenGL® Shading Language specification}.
+\newblock
+  \url{https://www.khronos.org/registry/OpenGL/specs/gl/GLSLangSpec.3.30.pdf},
+  stan z 18.02.2021 r.
+
 \bibitem{goxel_page}
-@guillaumechereau.
+guillaumechereau.
 \newblock {Goxel}.
 \newblock \url{https://goxel.xyz}, stan z 04.02.2021 r.
 
@@ -36,14 +75,69 @@ B.~Inny.
 \newblock Tytu³ publikacji.
 \newblock In {\em Tytu³ ksi¹¿ki}, pages 5--32, Feb 2011.
 
+\bibitem{path_intellisense_page}
+Christian Kohler.
+\newblock {Path Intellisense extension for Visual Studio Code}.
+\newblock
+  \url{https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense},
+  stan z 18.02.2021 r.
+
+\bibitem{c_cpp_page}
+Microsoft.
+\newblock {C/C++ extension for Visual Studio Code}.
+\newblock
+  \url{https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools},
+  stan z 18.02.2021 r.
+
+\bibitem{cmake_tools_page}
+Microsoft.
+\newblock {CMake Tools extension for Visual Studio Code}.
+\newblock
+  \url{https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools},
+  stan z 18.02.2021 r.
+
+\bibitem{vscode_page}
+Microsoft.
+\newblock {Visual Studio Code}.
+\newblock \url{https://code.visualstudio.com}, stan z 18.02.2021 r.
+
+\bibitem{imgui_page}
+ocornut.
+\newblock {Dear ImGui}.
+\newblock \url{https://github.com/ocornut/imgui}, stan z 18.02.2021 r.
+
 \bibitem{voxedit_beta_page}
 Pixowl.
 \newblock {VoxEdit Beta}.
 \newblock \url{https://www.voxedit.io}, stan z 04.02.2021 r.
 
+\bibitem{phong_implementation}
+Samuel R.~Buss Sam~Buss.
+\newblock {\em {3D Computer Graphics: A Mathematical Introduction with
+  OpenGL}}.
+\newblock Cambridge University Press, s. 69-87, 2003.
+
+\bibitem{vscode-icons_page}
+VSCode~Icons Team.
+\newblock {vscode-icons extension for Visual Studio Code}.
+\newblock
+  \url{https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons},
+  stan z 18.02.2021 r.
+
 \bibitem{book_1}
 Z.~Test and K.~Nastêpny.
 \newblock {\em {Tytu³ ksi¹¿ki}}.
 \newblock Wydawca, Adres, 1995.
+
+\bibitem{voxels_definition}
+Naty~Hoffman Tomas Akenine-Moller, Eric~Haines.
+\newblock {\em {Real-Time Rendering, Fourth Edition}}.
+\newblock CRC Press, s. 578, 2018.
+
+\bibitem{cmake_page}
+twxs.
+\newblock {CMake extension for Visual Studio Code}.
+\newblock \url{https://marketplace.visualstudio.com/items?itemName=twxs.cmake},
+  stan z 18.02.2021 r.
 
 \end{thebibliography}

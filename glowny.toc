@@ -12,16 +12,18 @@
 \contentsline {section}{\numberline {2.1}Wymagania}{19}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Wymagania funkcjonalne}{19}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Wymagania niefunkcjonalne}{19}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Interfejs graficzny}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Diagram przypadk\'ow u\.zycia i opisy}{22}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Diagramy stan\'ow}{23}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Realizacja}{27}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Rozdzia\IeC {\l } 4}{29}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Rozdzia\IeC {\l } 5}{31}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Rozdzia\IeC {\l } 6}{33}{chapter.6}%
-\contentsline {chapter}{Podsumowanie}{35}{chapter*.21}%
-\contentsline {chapter}{Bibliografia}{37}{chapter*.22}%
-\contentsline {chapter}{Spis tabel}{39}{chapter*.23}%
-\contentsline {chapter}{Spis rysunk\'ow}{41}{chapter*.24}%
-\contentsline {chapter}{Spis listing\'ow}{43}{chapter*.25}%
-\contentsline {chapter}{Spis algorytm\'ow}{45}{chapter*.26}%
+\contentsline {section}{\numberline {2.2}Diagramy stan\'ow}{20}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Diagram przypadk\'ow u\.zycia i opisy}{21}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Zastosowane technologie i rozwi\k azania}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}J\k ezyki programowania}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\'Srodowisko programistyczne}{27}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Biblioteki}{28}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Implementacja}{29}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Prezentacja aplikacji}{31}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Rozdzia\IeC {\l } 6}{35}{chapter.6}%
+\contentsline {chapter}{Podsumowanie}{37}{chapter*.22}%
+\contentsline {chapter}{Bibliografia}{40}{chapter*.23}%
+\contentsline {chapter}{Spis tabel}{41}{chapter*.24}%
+\contentsline {chapter}{Spis rysunk\'ow}{43}{chapter*.25}%
+\contentsline {chapter}{Spis listing\'ow}{45}{chapter*.26}%
+\contentsline {chapter}{Spis algorytm\'ow}{47}{chapter*.27}%

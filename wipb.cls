@@ -205,43 +205,44 @@ Ja, \@autor, \ifthenelse{\equal{nie}{#1}}{nie wyra¿am zgody}{wyra¿am zgodê} na u
 
 %%%%%%%metryczka%%%%%%%%%
 
-\thispagestyle{empty}
- \begin{tikzpicture}[remember picture,overlay]
-   \node at (current page.center) {\includegraphics[width=\pdfpagewidth,height=\pdfpageheight]{grafika/karta_dyplomowa.eps}};
- \end{tikzpicture}
-\clearpage
-\pagestyle{empty}
-
-
+%\thispagestyle{empty}
+% \begin{tikzpicture}[remember picture,overlay]
+%   \node at (current page.center) {\includegraphics[width=\pdfpagewidth,height=\pdfpageheight]{grafika/karta_dyplomowa.eps}};
+% \end{tikzpicture}
+%\clearpage
 %\pagestyle{empty}
-%\begin{center}
-%    {\large\bfseries Karta dyplomowa}\\%[1em]
-%\begin{tabular}{|p{.3\textwidth}|p{.3\textwidth}|p{.3\textwidth}|}
-%\hline
-%\multirow{2}{.3\textwidth}{\mpbox{Politechnika Bia³ostocka\\Wydzia³ Informatyki}}&\multirow{3}{.3\textwidth}{\raisebox{-5.5em}{\mpbox{Studia \@studia\\\@profil}}}&\hspace{0mm}\mpbox{ Numer albumu studenta:\@indeks}\\[7mm]
-%\cline{3-3}
-%& &Rok akademicki \@rokakademicki\\
-%\cline{3-3}
-%\raisebox{-3em}{\mpbox{Katedra \@katedra}}&&\hspace{0mm}\mpbox{Kierunek studiów: \@kierunekstudiow\\Specjalnoœæ: \@specjalnosc}\\[14mm]
-%\hline
-%\multicolumn{3}{|c|}{\raisebox{-1em}{\textbf{\@autor}}}\\[1.75em]
-%\multicolumn{3}{|l|}{\parbox[c][3em][c]{.8\textwidth}{\textbf{TEMAT PRACY DYPLOMOWEJ: \@temat}}}\\[5mm]
-%\multicolumn{3}{|l|}{Zakres pracy:}\\[1mm]
-%\multicolumn{3}{|l|}{\hspace{1em}\parbox{.8\textwidth}{\@zakres}}\\[4em]
-%\multicolumn{3}{|c|}{\centering \parbox{.4\textwidth}{\centering .................................................\\\footnotesize Imiê i nazwisko promotora - podpis}\parbox{.4\textwidth}{\centering .............................................................\\\footnotesize Imiê i nazwisko kierownika katedry - podpis}}\\[1.5em]
-%\hline
-%\multicolumn{3}{|c|}{\hspace{2em}}\\
-%\multicolumn{1}{|c}{...........................................}&\multicolumn{1}{c}{...........................................}&\multicolumn{1}{c|}{...........................................}\\
-%\multicolumn{1}{|c}{\parbox{.3\textwidth}{\centering \scriptsize Data wydania tematu pracy dyplomowej - podpis promotora}}&\multicolumn{1}{c}{\parbox{.3\textwidth}{\centering \footnotesize Regulaminowy termin z³o¿enia pracy dyplomowej}}&\multicolumn{1}{c|}{\parbox[c]{.3\textwidth}{\centering \footnotesize Data z³o¿enia pracy dyplomowej - potwierdzenie dziekanatu}}\\[1em]
-%\hline
-%\multicolumn{3}{|c|}{}\\[1em]
-%\multicolumn{3}{|c|}{\parbox{.4\textwidth}{\centering ...........................................\\\footnotesize Ocena promotora}\parbox{.4\textwidth}{\centering ...........................................\\\footnotesize Podpis promotora}}\\[1em]
-%\hline
-%\multicolumn{3}{|c|}{}\\[1em]
-%\multicolumn{1}{|c}{\parbox{.3\textwidth}{\centering.......................................\\\footnotesize Imiê i nazwisko recenzenta}}&\multicolumn{1}{c}{\parbox{.3\textwidth}{\centering.......................................\\\footnotesize Ocena recenzenta}}&\mcolumns{1}{c|}{.3}{\centering.......................................\\\footnotesize Podpis recenzenta}\\[1em]
-%\hline
-%\end{tabular}
-%\end{center}
+
+
+\pagestyle{empty}
+\begin{center}
+    {\large\bfseries Karta dyplomowa}\\%[1em]
+\begin{tabular}{|p{.33\textwidth}|p{.33\textwidth}|p{.33\textwidth}|}
+\hline
+\multirow{2}{.3\textwidth}{\mpbox{Politechnika Bia³ostocka\\Wydzia³ Informatyki}}&\multirow{3}{.3\textwidth}{\raisebox{-5.5em}{\mpbox{Studia \@studia\\\@profil}}}&\hspace{0mm}\mpbox{ Numer albumu studenta: \@indeks}\\[7mm]
+\cline{3-3}
+& &Rok akademicki \@rokakademicki\\
+\cline{3-3}
+\raisebox{-3em}{\mpbox{Katedra \@katedra}}&&\hspace{0mm}\mpbox{Kierunek studiów: \@kierunekstudiow\\Specjalnoœæ: \@specjalnosc}\\[14mm]
+\hline
+\multicolumn{3}{|c|}{\raisebox{-1em}{\textbf{\@autor}}}\\[1.75em]
+\multicolumn{3}{|l|}{\parbox[c][3em][c]{.8\textwidth}{\textbf{TEMAT PRACY DYPLOMOWEJ: \newline Edytor modeli 3D opartych o woksele}}}\\[5mm]
+\multicolumn{3}{|l|}{Zakres pracy:}\\[1mm]
+\multicolumn{3}{|l|}{\hspace{1em}\parbox{.8\textwidth}{\@zakres}}\\[1em]
+\multicolumn{3}{|l|}{\parbox[c][3em][c]{.8\textwidth}{\textbf{S³owa kluczowe (max 5):} Woksel, 3D, Edytor Modeli, C++}}\\[2em]
+\multicolumn{3}{|c|}{\centering \parbox{.5\textwidth}{\centering .................................................\\\footnotesize Imiê i nazwisko promotora - podpis}\parbox{.5\textwidth}{\centering .............................................................\\\footnotesize Imiê i nazwisko kierownika katedry - podpis}}\\[1.5em]
+\hline
+\multicolumn{3}{|c|}{\hspace{2em}}\\
+\multicolumn{1}{|c}{...........................................}&\multicolumn{1}{c}{...........................................}&\multicolumn{1}{c|}{...........................................}\\
+\multicolumn{1}{|c}{\parbox{.3\textwidth}{\centering \scriptsize Data wydania tematu pracy dyplomowej - podpis promotora}}&\multicolumn{1}{c}{\parbox{.3\textwidth}{\centering \footnotesize Regulaminowy termin z³o¿enia pracy dyplomowej}}&\multicolumn{1}{c|}{\parbox[c]{.3\textwidth}{\centering \footnotesize Data z³o¿enia pracy dyplomowej - potwierdzenie dziekanatu}}\\[1em]
+\hline
+\multicolumn{3}{|c|}{}\\[1em]
+\multicolumn{3}{|c|}{\parbox{.4\textwidth}{\centering ...........................................\\\footnotesize Ocena promotora}\parbox{.4\textwidth}{\centering ...........................................\\\footnotesize Podpis promotora}}\\[1em]
+\hline
+\multicolumn{3}{|c|}{}\\[1em]
+\multicolumn{1}{|c}{\parbox{.3\textwidth}{\centering.......................................\\\footnotesize Imiê i nazwisko recenzenta}}&\multicolumn{1}{c}{\parbox{.3\textwidth}{\centering.......................................\\\footnotesize Ocena recenzenta}}&\mcolumns{1}{c|}{.3}{\centering.......................................\\\footnotesize Podpis recenzenta}\\[1em]
+\hline
+\end{tabular}
+\end{center}
 }
 
 %% spolszczenia

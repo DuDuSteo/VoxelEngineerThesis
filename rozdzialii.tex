@@ -1,7 +1,6 @@
 \chapter{Projekt systemu}
 
-W tym rozdziale zapoznamy siê z g³ównymi rozwi¹zaniami z zakresu in¿ynierii oprogramowania i projektowania, które pozwol¹ nam siê zaznajomiæ z podstawowym dzia³aniem aplikacji, jak i wymogów co do niniejszej pracy.
-
+W tym rozdziale przedstawiono g³ówne rozwi¹zania z zakresu in¿ynierii oprogramowania i projektowania, takie jak wymagania funkcjonalne i niefunkcjonalne co do niniejszej pracy oraz diagramy, na których zobrazowano dzia³anie systemu oraz zamieszczono ich opis. Tworz¹c taki projekt systemu, umo¿liwi on zaznajomienie siê z podstawowym dzia³aniem aplikacji. 
 
 
 
@@ -12,10 +11,11 @@ W tym rozdziale zapoznamy siê z g³ównymi rozwi¹zaniami z zakresu in¿ynierii opro
 
 
 
-Na podstawie informacji zebranych z rozdzia³u 1 ,,Przegl¹d istniej¹cych rozwi¹zañ'', jak i mojej wiedzy na temat programów graficznych, okreœlone zosta³y podstawowe wymagania dotycz¹ce aplikacji.
+Na podstawie informacji zebranych z rozdzia³u 1 ,,Przegl¹d istniej¹cych rozwi¹zañ'', jak i wiedzy autora na temat programów graficznych, okreœlone zosta³y podstawowe wymagania dotycz¹ce aplikacji. Podzielono je na wymagania funkcjonalne oraz niefunkcjonalne.
 
 \subsection{Wymagania funkcjonalne}
 
+Aplikacja stworzona w ramach niniejszej pracy powinna spe³niaæ nastêpuj¹ce funkcjonalnoœci:
 \begin{itemize}
 \item Tworzenie modeli 3D.
 \item Prosty interfejs u¿ytkownika.
@@ -28,6 +28,7 @@ Na podstawie informacji zebranych z rozdzia³u 1 ,,Przegl¹d istniej¹cych rozwi¹za
 
 \subsection{Wymagania niefunkcjonalne}
 
+Prócz wymagañ funkcjonalnych zdefiniowano szereg wymagañ niefunkcjonalnych, które aplikacja powinna spe³niaæ. Nale¿¹ do nich:
 \begin{itemize}
 \item Mo¿liwoœæ ponownego u¿ycia silnika 3D w innych projektach.
 \item Wysoka responsywnoœæ na zmiany w modelu.
@@ -39,50 +40,25 @@ Na podstawie informacji zebranych z rozdzia³u 1 ,,Przegl¹d istniej¹cych rozwi¹za
 
 
 
+\section{Diagramy stanów}
 
-\section{Interfejs graficzny}
-
-
-
-
-
-G³ównym za³o¿eniem interfejsu by³a prostota i customizowalnoœæ. Osi¹gniête to zosta³o poprzez wyeksponowanie modelu, który jest renderowany w czasie rzeczywistym przez silnik 3D edytora. 
+W aplikacji rozró¿niamy dwa g³ówne stany, stan gotowoœci do edycji albo stan wczytywania. Pierwszy z nich, przedstawiony na rysunku \ref{rys-diagram-stanow-edycja} jest odpowiedzialny za wprowadzanie zmian na obiekcie 3D. Z uwagi na to, ¿e silnik renderuje klatki w czasie rzeczywistym, stan ten jest w ci¹g³ej gotowoœci, czekaj¹cy na ingerencje u¿ytkownika. Drugi stan (rysunek \ref{rys-diagram-stanow-wczytywanie}) jest wywo³ywany w momencie wybrania nazwy pliku do wczytania.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.9\textwidth, keepaspectratio]{grafika/voxel-editor-main.png}
-\caption{Ekran startowy programu, ¿ród³o: opracowanie w³asne} 
-\label{rys-voxel-editor-main}
+\includegraphics[width=1\textwidth, keepaspectratio]{grafika/diagram-stanow-edycja.png}
+\caption{Diagram stanów dla edycji, Ÿród³o: opracowanie w³asne} 
+\label{rys-diagram-stanow-edycja}
 \end{figure}
 
-By u¿ytkownikowi daæ wiêcej mo¿liwoœci ustawienia wygl¹du wyjœciowego, dodano opcjê zmiany wartoœci oœwietlenia, jak i t³a aplikacji. Wygl¹d okna ,,Scene'' zosta³ ukazany na rysunku \ref{rys-voxel-editor-scene-edit}.
+
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-scene-edit.png}
-\caption{Okno zmiany ustawieñ sceny, ¿ród³o: opracowanie w³asne} 
-\label{rys-voxel-editor-scene-edit}
+\includegraphics[width=1\textwidth, keepaspectratio]{grafika/diagram-stanow-wczytywanie.png}
+\caption{Diagram stanów dla wczytywania, Ÿród³o: opracowanie w³asne} 
+\label{rys-diagram-stanow-wczytywanie}
 \end{figure}
-
-Zmiana aktywnego materia³u odbywa siê poprzez wybór z listy dostêpnych, jak i stworzonych materia³ów w oknie ,,Material'' (rysunek \ref{rys-voxel-editor-material-edit}).
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-material-edit.png}
-\caption{Okno zmiany bie¿¹cego materia³u, jak i jego edycji, ¿ród³o: opracowanie w³asne} 
-\label{rys-voxel-editor-material-edit}
-\end{figure}
-
-W celu u³atwienia wyboru koloru podczas tworzenia materia³u oraz wyboru t³a sceny, parametry ,,Color'' w przypadku okna ,,Scene'', jak i ,,Ambient'', ,,Diffuse'' i ,,Specular'' w przypadku okna ,,Material'' posiadaj¹ opcjê wyboru rêcznego z kwadratu kolorów (rysunek \ref{rys-voxel-editor-rgb}).
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-rgb.png}
-\caption{Okno wyboru wartoœci koloru wraz z podgl¹dem po prawej stronie, ¿ród³o: opracowanie w³asne} 
-\label{rys-voxel-editor-rgb}
-\end{figure}
-
-
 
 
 
@@ -92,12 +68,12 @@ W celu u³atwienia wyboru koloru podczas tworzenia materia³u oraz wyboru t³a scen
 
 
 
-Na przedstawionym poni¿ej (rysunek \ref{rys-diagram-przypadkow-uzycia}) diagramie przypadków u¿ycia, zawarte s¹ wszystkie najwa¿niejsze wymagania funkcjonalne w formie graficznej. 
+Na rysunku \ref{rys-diagram-przypadkow-uzycia} przedstawiono diagram przypadków u¿ycia, w którym zawarte s¹ wszystkie najwa¿niejsze wymagania funkcjonalne w formie graficznej. 
 
 \begin{figure}[htb]
 \centering
 \includegraphics[width=1\textwidth, keepaspectratio]{grafika/diagram-przypadkow-uzycia.png}
-\caption{Diagram przypadków u¿ycia, ¿ród³o: opracowanie w³asne} 
+\caption{Diagram przypadków u¿ycia, Ÿród³o: opracowanie w³asne} 
 \label{rys-diagram-przypadkow-uzycia}
 \end{figure}
 
@@ -220,23 +196,7 @@ Wartoœci uzyskane przez aktorów po zakoñczeniu przypadków u¿ycia & \begin{enumer
 
 
 
-\section{Diagramy stanów}
 
 
-
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.9\textwidth, keepaspectratio]{grafika/diagram-stanow-wczytywanie.png}
-\caption{Diagram stanów dla wczytywania, ¿ród³o: opracowanie w³asne} 
-\label{rys-diagram-stanow-wczytywanie}
-\end{figure}
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.9\textwidth, keepaspectratio]{grafika/diagram-stanow-edycja.png}
-\caption{Diagram stanów dla edycji, ¿ród³o: opracowanie w³asne} 
-\label{rys-diagram-stanow-edycja}
-\end{figure}
 
 

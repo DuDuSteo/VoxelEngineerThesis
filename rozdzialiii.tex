@@ -1,45 +1,29 @@
-\chapter{Realizacja}
+\chapter{Zastosowane technologie i rozwi¹zania}
 
+Aby stworzyæ aplikacjê, wpierw trzeba podj¹æ decyzjê dotycz¹c¹ technologii w jakiej ma ona powstaæ. Programy dzia³aj¹ce w czasie rzeczywistym, wymagaj¹ du¿ej odpowiedzialnoœci ze strony programisty, by zapewniæ u¿ytkownikowi jak najp³ynniejsze doœwiadczenie podczas u¿ytkowania. W tym celu, wybrano rozwi¹zania pozwalaj¹ce programiœcie na jak najwiêksz¹ ingerencjê w sposób dzia³ania, jednoczeœnie pozwalaj¹c na wykorzystanie gotowych rozwi¹zañ.
 
+\section{Jêzyki programowania}
 
-Prosta tabela \ref{tabela_1}.
+Aplikacja zosta³a napisana w jêzyku C++ w wersji ISO/IEC 14882:2011 \cite{iso_iec_page} (C++11), z wyj¹tkiem plików cieniowania barw (ang. \textit{shader files}), które zosta³y napisane w jêzyku GLSL (OpenGL Shading Language) w wersji ,,330 core'' \cite{glsl_page}. S¹ wysokopoziomowymi jêzykami, ze sk³adni¹ pochodz¹c¹ z jêzyka C, pozwalaj¹cymi na bezpoœredni dostêp do zasobów sprzêtowych i funkcji systemowych.
 
-\begin{table}[htb]
-\centering
-\caption[Krótki podpis tabeli 1 -- do spisu treœci]{D³ugi podpis tabeli 1, który pojawi siê nad ni¹. Jak chcecie podpis pod tabel¹, umieœæcie caption przed samym end\{table\} - ale to niezgodne z wytycznymi.}
-\begin{tabular}{|c|c|c|c|}
-\hline
-Kolumna 1 & Kolumna 2 & Kolumna 3 & Kolumna 4 \\\hline
-Kolumna 1 & Kolumna 2 & Kolumna 3 & Kolumna 4 \\\hline
-Kolumna 1 & Kolumna 2 & Kolumna 3 & Kolumna 4 \\\hline
-Kolumna 1 & Kolumna 2 & Kolumna 3 & Kolumna 4 \\\hline
-\end{tabular}
-\label{tabela_1}
-\end{table}
+\section{Œrodowisko programistyczne}
 
-Przyk³adowa tabela \ref{tabela_2}, nieco bardziej skomplikowana.
+Z uwagi na wymaganie multiplatformowoœci postawione w etapie projektowania systemu, wszystkie narzêdzia programistyczne do tworzenia oprogramowania, powinny te zapotrzebowanie spe³niaæ. Visual Studio Code \cite{vscode_page} jest idealnym przyk³adem narzêdzia, bêd¹cego multiplatformowe, bezp³atne oraz elastyczne. 
+G³ównym atutem tego IDE (ang. \textit{Integrated Development Environment}), jest ogromna biblioteka rozszerzeñ. Do stworzenie aplikacji, u¿yte zosta³y nastêpuj¹ce pozycje: 
+\begin{itemize}
+\item C/C++ \cite{c_cpp_page} - wsparcie dla jêzyków C i C++.
+\item CMake \cite{cmake_page} - wsparcie dla jêzyka CMake.
+\item CMake Tools \cite{cmake_tools_page} - integracja programu CMake.
+\item VSCode Icons \cite{vscode-icons_page} - zestaw ikon.
+\item Path Intellisense \cite{path_intellisense_page} - automatyczne koñczenie nazw plików.
+\end{itemize}
 
-\begin{table}[htb]
-\centering
-\caption[Krótki podpis tabeli 2 -- do spisu treœci]{D³ugi podpis tabeli 2, który pojawi siê nad ni¹}
-\scalebox{0.6}{
-\begin{tabular}{|>{\bfseries}!a||^c|^c|^c|^c|^c|^c|^c|^c|^c|^c|}
-\hline
-\rowcolor{Gray}
-\rowstyle{\bfseries}
-Kolumna wyró¿niona & \makecell{Kolumna \\ pierwsza} & \makecell{Kolumna \\ druga}& \makecell{Kolumna \\ kolejna \\ d³uga \\ nazwa} & \makecell{Przeno- \\ szenie \\ s³owa} & \makecell{Kolumna \\ kolejna} & \makecell{Kolumna \\ kolejna} & \makecell{Kolumna \\ kolejna} & \makecell{Kolumna \\ kolejna} & \makecell{Kolumna \\ kolejna} & \makecell{Kolumna \\ kolejna} \\\hline
-Wiersz jakiœ tam & 1 & 2 & \cellcolor{LightGray}3 & 4 & 5 & 6 & 7 & \cellcolor{LightGray}8 & 9 & 10 \\\hline \hline
-Wiersz ze statystykami & 11,56 & 92,38 & 827,21 & 41,92 & 29,71 & 28,77 & \cellcolor{LightRed}29,61 & 55,02 & 72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & \textbf{92,38} & 827,21 & 41,92 & 29,71 & \cellcolor{LightGreen}28,77 & 29,61 & 55,02 & 72,33 & \cellcolor{LightRed}95,82 \\\hline
-Wiersz ze statystykami & 11,56 & \textbf{92,38} & 827,21 & 41,92 & 29,71 & 28,77 & 29,61 & 55,02 & \cellcolor{LightGreen}72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & 92,38 & \cellcolor{LightGreen}827,21 & 41,92 & 29,71 & 28,77 & 29,61 & 55,02 & 72,33 & 95,82 \\\hline
-Wiersz ze statystykami & \cellcolor{LightGreen}11,56 & 92,38 & \cellcolor{LightRed}827,21 & 41,92 & 29,71 & 28,77 & 29,61 & 55,02 & 72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & 92,38 & 827,21 & \textbf{41,92} & 29,71 & 28,77 & 29,61 & 55,02 & \cellcolor{LightRed}72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & 92,38 & 827,21 & 41,92 & 29,71 & 28,77 & \cellcolor{LightRed}29,61 & 55,02 & 72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & \cellcolor{LightGreen}92,38 & 827,21 & 41,92 & 29,71 & 28,77 & \cellcolor{LightGreen}29,61 & 55,02 & 72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & \cellcolor{LightRed}92,38 & 827,21 & 41,92 & 29,71 & 28,77 & \textbf{29,61} & 55,02 & 72,33 & 95,82 \\\hline
-Wiersz ze statystykami & 11,56 & 92,38 & 827,21 & 41,92 & \cellcolor{LightRed}29,71 & \cellcolor{LightRed}28,77 & 29,61 & 55,02 & 72,33 & 95,82 \\\hline \hline
-\end{tabular}
-}
-\label{tabela_2}
-\end{table}
+\section{Biblioteki}
+
+Jedn¹ z najwiêkszych przewag jêzyka C++ jest ³atwoœæ korzystania z bibliotek napisanych w C, C++ lub innych, niezale¿nie od platformy systemowej. Kontynuuj¹c temat multiplatformowoœci, systemy obs³ugi okien nie jest wspólny dla ka¿dego z systemów operacyjnych. W celu rozwi¹zania tego problemu, u¿yta zosta³a biblioteka GLFW \cite{glfw_page}, pe³ni¹ca rolê interfejsu programistycznego aplikacji (ang. \textit{Application Programming Interface}), wspieraj¹ca systemy okien takie jak Windows, macOS, X11 oraz Wayland.
+
+Silniki graficzne s¹ zaawansowanymi modu³ami, które wykonuj¹ wiele obliczeñ matematycznych. W celu zapewnienia najwy¿szej wydajnoœci dzia³ania tych obliczeñ, jak i zapewnieniu zgodnoœci struktur matematycznych pomiêdzy kodem pisanym w C++, a kodem pisanym w GLSL, wybrano bibliotekê glm \cite{glm_page}.
+
+Do komunikacji pomiêdzy u¿ytkownikiem a silnikiem 3D, wykorzystano bibliotekê ImGui \cite{imgui_page}, pe³ni¹c¹ rolê graficznego interfejsu u¿ytkownika (ang. \textit{GUI Graphical User Interface}. Zosta³a stworzona specjalnie na potrzeby szybkich iteracji, potrzebnych miêdzy innymi w silnikach gier, aplikacjach 3D czasu rzeczywistego oraz aplikacjach pe³noekranowych.
+
+Zastosowanie OpenGL w aplikacji wymaga u¿ycia biblioteki ³aduj¹cej, odpowiedzialnej za ³adowanie wskaŸników, funkcji w czasie rzeczywistym, j¹der, jak i rozszerzeñ. \cite{opengl_loading_library_page} Jedn¹ z takich bibliotek jest Glad \cite{glad_page}, która jest generowana przez u¿ytkownika na podstawie jego potrzeb.

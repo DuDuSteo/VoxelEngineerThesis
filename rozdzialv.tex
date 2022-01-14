@@ -1,1 +1,62 @@
-\chapter{Rozdzia³ 5}
+\chapter{Prezentacja aplikacji}
+
+G³ównym za³o¿eniem interfejsu by³a prostota i customizowalnoœæ. Osi¹gniête to zosta³o poprzez wyeksponowanie modelu, który jest renderowany w czasie rzeczywistym przez silnik 3D edytora. 
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.9\textwidth, keepaspectratio]{grafika/voxel-editor-main.png}
+\caption{Ekran startowy programu, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-main}
+\end{figure}
+
+By u¿ytkownikowi daæ wiêcej mo¿liwoœci ustawienia wygl¹du wyjœciowego, dodano opcjê zmiany wartoœci oœwietlenia, jak i t³a aplikacji. Wygl¹d okna ,,Scene'' zosta³ ukazany na rysunku \ref{rys-voxel-editor-scene-edit}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-scene-edit.png}
+\caption{Okno zmiany ustawieñ sceny, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-scene-edit}
+\end{figure}
+
+Zmiana aktywnego materia³u odbywa siê poprzez wybór z listy dostêpnych, jak i stworzonych materia³ów w oknie ,,Material'' (rysunek \ref{rys-voxel-editor-material-edit}).
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-material-edit.png}
+\caption{Okno zmiany bie¿¹cego materia³u, jak i jego edycji, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-material-edit}
+\end{figure}
+
+W celu u³atwienia wyboru koloru podczas tworzenia materia³u oraz wyboru t³a sceny, parametry ,,Color'' w przypadku okna ,,Scene'', jak i ,,Ambient'', ,,Diffuse'' i ,,Specular'' w przypadku okna ,,Material'' posiadaj¹ opcjê wyboru rêcznego z kwadratu kolorów (rysunek \ref{rys-voxel-editor-rgb}).
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-rgb.png}
+\caption{Okno wyboru wartoœci koloru wraz z podgl¹dem po prawej stronie, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-rgb}
+\end{figure}
+
+Okno ,,Debug'' (rysunek \ref{rys-voxel-editor-debug-edit}) powsta³o specjalnie z uwag¹ na wymagania czasowe dotycz¹ce g³ównych funkcjonalnoœci. Przycisk ,,WireFrame mode'' prze³¹cza w silniku 3D sposób renderowania obiektów na tylko krawêdzie. Pod przyciskiem w czasie rzeczywistym kreœlony jest wykres czasu renderowania pojedynczej klatki (ang. \textit{frame time}).
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-debug-edit.png}
+\caption{Okno z informacjami o, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-debug-edit}
+\end{figure}
+
+Przedstawione powy¿ej okna aplikacji, s¹ dostêpne z poziomu paska nawigacji (rysunek \ref{rys-voxel-editor-window-options}) za pomoc¹ którego mo¿na je pokazywaæ lub chowaæ. Dla ka¿dego z tych okienek, u¿ytkownik mo¿e zmieniæ ich pozycjê, wielkoœæ, jak i zminimalizowaæ, wed³ug w³asnego uznania. Na rysunku \ref{rys-voxel-editor-small} przedstawione zosta³o zmniejszone okno ,,Material'' z rysunku \ref{rys-voxel-editor-material-edit}. 
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-window-options.png}
+\caption{Pasek nawigacyjny z wybran¹ opcj¹ ,,Window'', Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-window-options}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-small.png}
+\caption{Okno ,,Material'' ze zmienionym rozmiarem przez u¿ytkownika, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-small}
+\end{figure}
