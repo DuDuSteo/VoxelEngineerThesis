@@ -1,1 +1,166 @@
-\chapter{Implementacja}
+\chapter{Realizacja projektu}
+
+Kolejnym etapem jest i
+
+\section{Struktura danych}
+
+Klasa ,,Object'' (listing \ref{object_code}) jest odpowiedzialna za przechowywanie i obs³ugê danych dotycz¹cych modelu. Jako rozwi¹zanie do przetrzymywania danych w strukturze, autor zastosowa³ po³¹czenie tablicy haszuj¹cej (ang. \textit{hash table}) jako wyznacznik istnienia woksela w danym miejscu oraz wektora wokseli, zawieraj¹cego struktury ,,Voxel'' (rysunek \ref{rys-struct_voxel__coll__graph}). 
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za obs³ugê modelu 3D},label={object_code}]
+class Object
+{
+public:
+  Object();
+  void Draw(MVP mvp, glm::vec3 cameraPosition, Light light);
+  void AddVoxel(glm::ivec3 pos, Material mat);
+  void ChangeColor(Voxel *voxel, Material mat);
+  void RemoveVoxel(Voxel *voxel);
+  void RemoveVoxel(glm::vec3 pos);
+  void Reset();
+  void Save();
+  void Load(std::string objectPath);
+  Voxel *CheckRay(glm::vec3 ray_origin, glm::vec3 ray_dir, glm::vec3 &newBlockLoc);
+  std::vector<Voxel> GetListOfVoxels();
+
+  std::string name;
+private:
+  ...
+  std::vector<Voxel> m_voxels;
+  bool m_hashVoxels[VOXEL_COUNT][VOXEL_COUNT][VOXEL_COUNT];
+};
+\end{lstlisting}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/struct_voxel__coll__graph.png}
+\caption{Diagram struktury ,,Voxel'', Ÿród³o: wygenerowane za pomoc¹ doxygen \cite{doxygen_page}} 
+\label{rys-struct_voxel__coll__graph}
+\end{figure}
+
+Aplikacja obs³uguje dwie w³asne struktury danych, które s¹ przechowywane, na poziomie dysku. Pozwala to u¿ytkownikowi na dostêp do tych danych, nawet po zakoñczeniu sesji.
+
+Plik tekstowy z zakoñczeniem \verb|.mat| odpowiedzialny jest za przechowywanie w³aœciwoœci materia³ów. Tworzony jest za pomoc¹ okna ,,Material'', poprzez globaln¹ funkcjê ,,saveMaterial'' przedstawion¹ na listingu \ref{material_save_code}.
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu funkcji zapisuj¹cej w³aœciwoœci materia³u do pliku tekstowego},label={material_save_code}]
+void saveMaterial(Material mat, const std::string &matName, bool edit)
+{
+	std::cout << "MATERIAL::SAVE_MATERIAL ";
+	std::string matPath = std::string(FILES_PATH) + matName + MATERIAL_FILE_EXTENSION;
+	std::cout << matPath << " ";
+	std::ofstream file(matPath);
+	if (file.bad() || file.fail())
+	{
+		std::cout << "FILE_BAD" << std::endl;
+		return;
+	}
+	file << mat.name << std::endl;
+	file << mat.ambient[0] << " " << mat.ambient[1] << " " << mat.ambient[2] << std::endl;
+	file << mat.diffuse[0] << " " << mat.diffuse[1] << " " << mat.diffuse[2] << std::endl;
+	file << mat.specular[0] << " " << mat.specular[1] << " " << mat.specular[2] << std::endl;
+	file << mat.shininess;
+	file.close();
+	...
+}
+\end{lstlisting}
+\section{Implementacja wybranych funkcjonalnoœci}
+
+
+\subsection{Interakcja z obiektem}
+
+Najwa¿niejsz¹ funkcjonalnoœci¹ do implementacji by³a interakcja z obiektem. Przyciœniêcie lewego przycisku myszy (\verb|GLFW_MOUSE_BUTTON_LEFT| i \verb|GLFW_PRESS|) w oknie wygenerowanym przez bibliotekê GLFW, pozwala na obliczenie kierunku promienia maj¹cego pocz¹tek w miejscu kamery. W celu obliczenia tego promienia, zastosowana zosta³a funkcja ,,getRayCast'' \cite{tranformation_raycast_page}, której zadaniem jest przekszta³cenie punktu 2D z przestrzeni rzutni (ang. \textit{viewport space}) do promienia 3D w przestrzeni œwiata (ang. \textit{world space}). 
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,VoxelGame'' odpowiedzialnego za obs³ugê lewego przycisku myszy},label={mouse_code}]
+if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
+    {
+      glm::vec3 ray_origin = voxelGame->camera->Position;
+      glm::vec3 ray_dir = voxelGame->getRayCast(voxelGame->mvp.projection, voxelGame->mvp.view);
+      glm::vec3 newBlockLoc = glm::vec3(0.f);
+      Voxel *t_voxel = voxelGame->object->CheckRay(ray_origin, ray_dir, newBlockLoc);
+      
+      ...
+    }
+\end{lstlisting}
+
+W celu okreœlenia intersekcji promienia z wokselem, w klasie ,,Object'' zaimplementowano funkcjê ,,CheckRay'' zmodyfikowan¹ na potrzeby tego testu przeciêcia z artyku³u ,,An Efficient and Robust Ray-Box Intersection Algorithm'' \cite{ray_box_article}. Modyfikacja ta doda³a mo¿liwoœæ obliczenia nie tylko pozycji woksela, ale te¿ i jego œcianki. W zale¿noœci od trybu edycji u¿ytkownika, w przypadku intersekcji z wokselem, wykonywane s¹ nastêpuj¹ce funkcje:
+
+\begin{itemize}
+\item ,,ChangeColor'' (implementacja w sekcji \nameref{change_color_voxel_label}) s³u¿¹ca do zmiany koloru woksela.
+\item ,,RemoveVoxel'' (implementacja w sekcji \nameref{remove_voxel_label}) s³u¿¹ca do usuniêcia woksela.
+\item ,,AddVoxel'' (implementacja w sekcji \nameref{add_voxel_label}) s³u¿¹ca do postawienia woksela na œciance obliczonej przez ,,CheckRay''.
+\end{itemize}
+
+\begin{lstlisting}[language={C++}, caption={Dalszy fragment kodu z listingu \ref{mouse_code}},label={voxel_hit_code}]
+if (t_voxel)
+      {
+        if (voxelGame->stateHandler->GetColorMode())
+          voxelGame->object->ChangeColor(t_voxel, loadMaterial(voxelGame->activeMaterialName));
+        if (voxelGame->stateHandler->GetRemoveMode())
+          voxelGame->object->RemoveVoxel(t_voxel);
+        if (voxelGame->stateHandler->GetAddMode())
+        {
+          voxelGame->object->AddVoxel(t_voxel->pos + newBlockLoc, loadMaterial(voxelGame->activeMaterialName));
+        }
+      }
+\end{lstlisting}
+
+\subsection{Dodanie woksela}
+\label{add_voxel_label}
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za dodawanie woksela},label={add_voxel_code}]
+void Object::AddVoxel(glm::ivec3 pos, Material mat)
+{
+    glm::ivec3 t_pos = glm::ivec3(VOXEL_COUNT / 2 + pos.x, VOXEL_COUNT / 2 + pos.y, VOXEL_COUNT / 2 + pos.z);
+    if (t_pos.x < 0 || t_pos.x > VOXEL_COUNT)
+    {
+        std::cout << "OBJECT::ADD_VOXEL::POS::X Out of bounds " << std::endl;
+        return;
+    }
+    if (t_pos.y < 0 || t_pos.y > VOXEL_COUNT)
+    {
+        std::cout << "OBJECT::ADD_VOXEL::POS::Y Out of bounds " << std::endl;
+        return;
+    }
+    if (t_pos.z < 0 || t_pos.z > VOXEL_COUNT)
+    {
+        std::cout << "OBJECT::ADD_VOXEL::POS::Z Out of bounds " << std::endl;
+        return;
+    }
+    if (m_hashVoxels[t_pos.x][t_pos.y][t_pos.z])
+    {
+        std::cout << "OBJECT::ADD_VOXEL Voxel already here" << std::endl;
+        return;
+    }
+    Voxel t_voxel;
+    t_voxel.pos = pos;
+    t_voxel.mat = mat;
+    m_voxels.push_back(t_voxel);
+    m_hashVoxels[t_pos.x][t_pos.y][t_pos.z] = true;
+    std::cout << "OBJECT::ADD_VOXEL (" << t_voxel.pos.x << ", "
+              << t_voxel.pos.y << ", " << t_voxel.pos.z << ") ("
+              << t_voxel.mat.name << ")" << std::endl;
+}
+\end{lstlisting}
+
+\subsection{Usuniêcie woksela}
+\label{remove_voxel_label}
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za usuniêcie woksela},label={remove_voxel_code}]
+void Object::RemoveVoxel(Voxel *voxel)
+{
+    glm::ivec3 t_pos = glm::ivec3(VOXEL_COUNT / 2 + voxel->pos.x, VOXEL_COUNT / 2 + voxel->pos.y, VOXEL_COUNT / 2 + voxel->pos.z);
+    m_hashVoxels[t_pos.x][t_pos.y][t_pos.z] = false;
+    m_voxels.erase(m_voxels.begin() + (voxel - &m_voxels.front()));
+}
+\end{lstlisting}
+
+\subsection{Zmiana materia³u woksela}
+\label{change_color_voxel_label}
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za zmianê materia³u woksela},label={change_color_voxel_code}]
+void Object::ChangeColor(Voxel *voxel, Material mat)
+{
+    voxel->mat = mat;
+}
+\end{lstlisting}
+
+\section{Testy aplikacji}

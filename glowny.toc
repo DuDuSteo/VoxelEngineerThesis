@@ -18,12 +18,21 @@
 \contentsline {section}{\numberline {3.1}J\k ezyki programowania}{27}{section.3.1}%
 \contentsline {section}{\numberline {3.2}\'Srodowisko programistyczne}{27}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Biblioteki}{28}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Implementacja}{29}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Prezentacja aplikacji}{31}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Rozdzia\IeC {\l } 6}{35}{chapter.6}%
-\contentsline {chapter}{Podsumowanie}{37}{chapter*.22}%
-\contentsline {chapter}{Bibliografia}{40}{chapter*.23}%
-\contentsline {chapter}{Spis tabel}{41}{chapter*.24}%
-\contentsline {chapter}{Spis rysunk\'ow}{43}{chapter*.25}%
-\contentsline {chapter}{Spis listing\'ow}{45}{chapter*.26}%
-\contentsline {chapter}{Spis algorytm\'ow}{47}{chapter*.27}%
+\contentsline {chapter}{\numberline {4}Realizacja projektu}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Struktura danych}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Implementacja wybranych funkcjonalno\'sci}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Interakcja z obiektem}{30}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Dodanie woksela}{31}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Usuni\k ecie woksela}{32}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Zmiana materia\IeC {\l }u woksela}{32}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}Testy aplikacji}{33}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Dokumentacja techniczna}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Prezentacja systemu}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Instrukcja u\.zytkownika}{37}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Rozdzia\IeC {\l } 6}{41}{chapter.6}%
+\contentsline {chapter}{Podsumowanie}{43}{chapter*.27}%
+\contentsline {chapter}{Bibliografia}{46}{chapter*.28}%
+\contentsline {chapter}{Spis tabel}{47}{chapter*.29}%
+\contentsline {chapter}{Spis rysunk\'ow}{50}{chapter*.30}%
+\contentsline {chapter}{Spis listing\'ow}{51}{chapter*.31}%
+\contentsline {chapter}{Spis algorytm\'ow}{53}{chapter*.32}%

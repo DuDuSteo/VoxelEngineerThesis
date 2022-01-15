@@ -1,15 +1,15 @@
 \begin{thebibliography}{10}
 
-\bibitem{misc_1}
-J.~Autor.
-\newblock Nazwa strony internetowej.
-\newblock \url{http://www.dlugi.adres.url.zlamie.sie.gdzies.w.srodku.com}, stan
-  z 01.01.2010 r.
+\bibitem{voxels_definition}
+Tomas Akenine-Moller and Naty~Hoffman Eric~Haines.
+\newblock {\em {Real-Time Rendering, Fourth Edition}}.
+\newblock CRC Press, s. 578, 2018.
 
-\bibitem{article_1}
-U.~Autor and W.~Kolejny.
-\newblock Tytu³ publikacji.
-\newblock {\em Nazwa czasopisma}, 12(2):132--145, May 2012.
+\bibitem{phong_implementation}
+Sam Bus and Samuel~R. Buss.
+\newblock {\em {3D Computer Graphics: A Mathematical Introduction with
+  OpenGL}}.
+\newblock Cambridge University Press, s. 69-87, 2003.
 
 \bibitem{glm_page}
 G-Truc Creation.
@@ -42,6 +42,12 @@ International~Organization for Standardization.
 \newblock {ISO/IEC 14882:2011 standard}.
 \newblock \url{https://www.iso.org/standard/50372.html}, stan z 18.02.2021 r.
 
+\bibitem{tranformation_raycast_page}
+Anton Gerdelan.
+\newblock {Mouse Picking with Ray Casting}.
+\newblock \url{https://antongerdelan.net/opengl/raycasting}, stan z 21.08.2021
+  r.
+
 \bibitem{qubicle_page}
 Minddesk~Software GmbH.
 \newblock {Qubicle}.
@@ -70,10 +76,10 @@ guillaumechereau.
 \newblock {Goxel}.
 \newblock \url{https://goxel.xyz}, stan z 04.02.2021 r.
 
-\bibitem{inproceedings_1}
-B.~Inny.
-\newblock Tytu³ publikacji.
-\newblock In {\em Tytu³ ksi¹¿ki}, pages 5--32, Feb 2011.
+\bibitem{doxygen_page}
+KDE.
+\newblock {Doxygeng}.
+\newblock \url{https://www.doxygen.nl/index.html}, stan z 21.08.2021 r.
 
 \bibitem{path_intellisense_page}
 Christian Kohler.
@@ -111,12 +117,6 @@ Pixowl.
 \newblock {VoxEdit Beta}.
 \newblock \url{https://www.voxedit.io}, stan z 04.02.2021 r.
 
-\bibitem{phong_implementation}
-Samuel R.~Buss Sam~Buss.
-\newblock {\em {3D Computer Graphics: A Mathematical Introduction with
-  OpenGL}}.
-\newblock Cambridge University Press, s. 69-87, 2003.
-
 \bibitem{vscode-icons_page}
 VSCode~Icons Team.
 \newblock {vscode-icons extension for Visual Studio Code}.
@@ -124,20 +124,16 @@ VSCode~Icons Team.
   \url{https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons},
   stan z 18.02.2021 r.
 
-\bibitem{book_1}
-Z.~Test and K.~Nastêpny.
-\newblock {\em {Tytu³ ksi¹¿ki}}.
-\newblock Wydawca, Adres, 1995.
-
-\bibitem{voxels_definition}
-Naty~Hoffman Tomas Akenine-Moller, Eric~Haines.
-\newblock {\em {Real-Time Rendering, Fourth Edition}}.
-\newblock CRC Press, s. 578, 2018.
-
 \bibitem{cmake_page}
 twxs.
 \newblock {CMake extension for Visual Studio Code}.
 \newblock \url{https://marketplace.visualstudio.com/items?itemName=twxs.cmake},
   stan z 18.02.2021 r.
+
+\bibitem{ray_box_article}
+Amy Williams, Steve Barrus, R.~Keith Morley, and Peter Shirley.
+\newblock An efficient and robust ray-box intersection algorithm.
+\newblock {\em Journal of Graphics GPU and Game Tools}, 10(1):49--54, January
+  2005.
 
 \end{thebibliography}
