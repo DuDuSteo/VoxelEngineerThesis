@@ -1,6 +1,6 @@
 \chapter{Dokumentacja techniczna}
 
-
+Dokumentacja techniczna aplikacji stanowi wa¿ny element u¿ytkownika do nawigacji po systemie. Zapewnia ona wprowadzenie do wygl¹du aplikacji, jak i opisuje w jaki sposób osi¹gn¹æ po¿¹dany efekt w aplikacji.
 
 \section{Prezentacja systemu}
 
@@ -13,6 +13,8 @@ G³ównym za³o¿eniem interfejsu by³a prostota i customizowalnoœæ. Osi¹gniête to zo
 \label{rys-voxel-editor-main}
 \end{figure}
 
+\subsection{Okno ,,Scene''}
+
 By u¿ytkownikowi daæ wiêcej mo¿liwoœci ustawienia wygl¹du wyjœciowego, dodano opcjê zmiany wartoœci oœwietlenia, jak i t³a aplikacji. Wygl¹d okna ,,Scene'' zosta³ ukazany na rysunku \ref{rys-voxel-editor-scene-edit}.
 
 \begin{figure}[htb]
@@ -21,6 +23,8 @@ By u¿ytkownikowi daæ wiêcej mo¿liwoœci ustawienia wygl¹du wyjœciowego, dodano op
 \caption{Okno zmiany ustawieñ sceny, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-scene-edit}
 \end{figure}
+
+\subsection{Okno ,,Material''}
 
 Zmiana aktywnego materia³u odbywa siê poprzez wybór z listy dostêpnych, jak i stworzonych materia³ów w oknie ,,Material'' (rysunek \ref{rys-voxel-editor-material-edit}).
 
@@ -31,6 +35,8 @@ Zmiana aktywnego materia³u odbywa siê poprzez wybór z listy dostêpnych, jak i st
 \label{rys-voxel-editor-material-edit}
 \end{figure}
 
+\subsection{Podgl¹d wybranego koloru}
+
 W celu u³atwienia wyboru koloru podczas tworzenia materia³u oraz wyboru t³a sceny, parametry ,,Color'' w przypadku okna ,,Scene'', jak i ,,Ambient'', ,,Diffuse'' i ,,Specular'' w przypadku okna ,,Material'' posiadaj¹ opcjê wyboru rêcznego z kwadratu kolorów (rysunek \ref{rys-voxel-editor-rgb}).
 
 \begin{figure}[htb]
@@ -40,7 +46,9 @@ W celu u³atwienia wyboru koloru podczas tworzenia materia³u oraz wyboru t³a scen
 \label{rys-voxel-editor-rgb}
 \end{figure}
 
-Okno ,,Debug'' (rysunek \ref{rys-voxel-editor-debug-edit}) powsta³o specjalnie z uwag¹ na wymagania czasowe dotycz¹ce g³ównych funkcjonalnoœci. Przycisk ,,WireFrame mode'' prze³¹cza w silniku 3D sposób renderowania obiektów na tylko krawêdzie. Pod przyciskiem w czasie rzeczywistym kreœlony jest wykres czasu renderowania pojedynczej klatki (ang. \textit{frame time}).
+\subsection{Okno ,,Debug''}
+
+Okno ,,Debug'' (rysunek \ref{rys-voxel-editor-debug-edit}) powsta³o specjalnie z uwag¹ na wymagania czasowe dotycz¹ce g³ównych funkcjonalnoœci. Przycisk ,,WireFrame mode'' prze³¹cza w silniku 3D sposób renderowania obiektów na tylko krawêdzie, zaœ przycisk ,,Optimized mode'' pozwala na wy³¹czenie zoptymalizowanego algorytmu rysowania modelu. Pod przyciskami w czasie rzeczywistym kreœlony jest wykres czasu renderowania pojedynczej klatki (ang. \textit{frame time}).
 
 \begin{figure}[htb]
 \centering
@@ -48,6 +56,8 @@ Okno ,,Debug'' (rysunek \ref{rys-voxel-editor-debug-edit}) powsta³o specjalnie z
 \caption{Okno z informacjami o dzia³aniu silnika graficznego, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-debug-edit}
 \end{figure}
+
+\subsection{Zarz¹dzanie oknami}
 
 Przedstawione powy¿ej okna aplikacji, s¹ dostêpne z poziomu paska nawigacji (rysunek \ref{rys-voxel-editor-window-options}) za pomoc¹ którego mo¿na je pokazywaæ lub chowaæ. Dla ka¿dego z tych okienek, u¿ytkownik mo¿e zmieniæ ich pozycjê, wielkoœæ, jak i zminimalizowaæ, wed³ug w³asnego uznania. Na rysunku \ref{rys-voxel-editor-small} przedstawione zosta³o zmniejszone okno ,,Material'' z rysunku \ref{rys-voxel-editor-material-edit}. 
 
@@ -65,6 +75,8 @@ Przedstawione powy¿ej okna aplikacji, s¹ dostêpne z poziomu paska nawigacji (rys
 \label{rys-voxel-editor-small}
 \end{figure}
 
+\subsection{Okno ,,Edit Modes''}
+
 G³ównym oknem do zmiany trybów interakcji z modelem 3D jest ,,Edit Modes'' ukazany na rysunku \ref{rys-voxel-editor-edit-mode}. S³u¿y ono do zmiany g³ównych trybów edycji na modelu 3D. Przez zaznaczenie jednej opcji z ,,Add'', ,,Remove'' lub ,,Color'', klikniêcie na istniej¹cy model na ekranie bêdzie mia³ inny rezultat.
 
 \begin{figure}[htb]
@@ -73,6 +85,8 @@ G³ównym oknem do zmiany trybów interakcji z modelem 3D jest ,,Edit Modes'' ukaza
 \caption{Okno trybu edycji modelu 3D, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-edit-mode}
 \end{figure}
+
+\subsection{Okna manipulacji plikami}
 
 Pasek z rysunku \ref{rys-voxel-editor-window-options} posiada jeszcze jedn¹ opcjê, a mianowicie ,,File'', odpowiedzialn¹ za wczytywanie modeli z pliku, zapisywanie ich oraz tworzenie nowych. Opcjê tej zak³adki s¹ przedstawione na rysunku \ref{rys-voxel-editor-file-options}
 

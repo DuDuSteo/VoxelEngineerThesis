@@ -25,7 +25,13 @@ Dav1dde.
 Joey de~Vries.
 \newblock {\em {Learn OpenGL: Learn modern OpenGL graphics programming in a
   step-by-step fashion.}}
-\newblock KW Publishers, s. 69-, 2020.
+\newblock KW Publishers, s. 50-53, 95-106, 2020.
+
+\bibitem{material_page}
+Frédéric Devernay.
+\newblock {OpenGL/VRML Materials}.
+\newblock \url{http://devernay.free.fr/cours/opengl/materials.html}, stan z
+  18.02.2021 r.
 
 \bibitem{glfw_page}
 elmindreda.
@@ -45,7 +51,7 @@ International~Organization for Standardization.
 \bibitem{tranformation_raycast_page}
 Anton Gerdelan.
 \newblock {Mouse Picking with Ray Casting}.
-\newblock \url{https://antongerdelan.net/opengl/raycasting}, stan z 21.08.2021
+\newblock \url{https://antongerdelan.net/opengl/raycasting}, stan z 18.02.2021
   r.
 
 \bibitem{qubicle_page}

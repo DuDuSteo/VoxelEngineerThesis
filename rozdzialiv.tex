@@ -1,8 +1,8 @@
 \chapter{Realizacja projektu}
 
-Kolejnym etapem jest i
+G³ównym tematem niniejszej pracy jest stworzenie edytora modeli 3D opartego o woksele. W tym rozdziale zostan¹ zaprezentowane zagadnienia dotycz¹ce aplikacji, takie jak sposób przechowywania danych, wybrane funkcjonalnoœci oraz proces testowania aplikacji.
 
-\section{Struktura danych}
+\section{Struktury danych}
 
 Klasa ,,Object'' (listing \ref{object_code}) jest odpowiedzialna za przechowywanie i obs³ugê danych dotycz¹cych modelu. Jako rozwi¹zanie do przetrzymywania danych w strukturze, autor zastosowa³ po³¹czenie tablicy haszuj¹cej (ang. \textit{hash table}) jako wyznacznik istnienia woksela w danym miejscu oraz wektora wokseli, zawieraj¹cego struktury ,,Voxel'' (rysunek \ref{rys-struct_voxel__coll__graph}). 
 
@@ -39,7 +39,9 @@ private:
 
 Aplikacja obs³uguje dwie w³asne struktury danych, które s¹ przechowywane, na poziomie dysku. Pozwala to u¿ytkownikowi na dostêp do tych danych, nawet po zakoñczeniu sesji.
 
-Plik tekstowy z zakoñczeniem \verb|.mat| odpowiedzialny jest za przechowywanie w³aœciwoœci materia³ów. Tworzony jest za pomoc¹ okna ,,Material'', poprzez globaln¹ funkcjê ,,saveMaterial'' przedstawion¹ na listingu \ref{material_save_code}.
+\subsection{W³aœciwoœci materia³ów}
+
+Plik tekstowy z zakoñczeniem \verb|.mat| odpowiedzialny jest za przechowywanie w³aœciwoœci materia³ów. Tworzony jest za pomoc¹ okna ,,Material'', poprzez globaln¹ funkcjê ,,saveMaterial'' przedstawion¹ na listingu \ref{material_save_code}. Format pliku \verb|.mat| zosta³ przedstawiony na listingu \ref{material_file_code} wraz z opisem. W³aœciwoœci materia³ów dostarczonych wraz z aplikacj¹ pochodz¹ z tabeli osadzonej na stronie devernay.free.fr \cite{material_page};
 
 \begin{lstlisting}[language={C++}, caption={Fragment kodu funkcji zapisuj¹cej w³aœciwoœci materia³u do pliku tekstowego},label={material_save_code}]
 void saveMaterial(Material mat, const std::string &matName, bool edit)
@@ -62,12 +64,88 @@ void saveMaterial(Material mat, const std::string &matName, bool edit)
 	...
 }
 \end{lstlisting}
+
+\begin{lstlisting}[caption={Przyk³ad pliku .mat wraz z opisem pól},label={material_file_code}]
+obsidian				// Material name
+0.05375 0.05 0.06625 			// R G B Ambient
+0.18275 0.17 0.22525 			// R G B Diffuse
+0.332741 0.328634 0.346435 		// R G B Specular
+0.3					// Shininess
+\end{lstlisting}
+
+\subsection{Model 3D}
+
+Drug¹ struktur¹ danych przechowywan¹ na dysku jest model 3D. Wszystkie pliki obiektów, które zostan¹ zapisane z poziomu aplikacji, bêd¹ posiada³y rozszerzenie \verb|.vxl| stworzone na potrzeby niniejszej pracy. Plik tekstowy \verb|.vxl| tworzony jest przy zapisie postêpów pracy do pliku, poprzez wywo³anie metody ,,save'' (przedstawionej na listingu \ref{object_save_code}) klasy ,,Object''. Format pliku \verb|.vxl| zosta³ przedstawiony na listingu \ref{voxel_file_code} wraz z opisem. 
+
+\begin{lstlisting}[language={C++}, caption={Fragment kodu metody klasy ,,Object'' zapisuj¹cej obiekt do pliku tekstowego},label={object_save_code}]
+void Object::Save()
+{
+    std::cout << "OBJECT::SAVE " << std::string(FILES_PATH) + name + std::string(VOXEL_FILE_EXTENSION) << " ";
+    std::ofstream file(std::string(FILES_PATH) + name + std::string(VOXEL_FILE_EXTENSION));
+    if (file.bad() || file.fail())
+    {
+        std::cout << "FILE_BAD" << std::endl;
+        return;
+    }
+    for (Voxel voxel : m_voxels)
+    {
+        file << voxel.pos.x << " " << voxel.pos.y << " " << voxel.pos.z << " " << voxel.mat.name << std::endl;
+    }
+    file.close();
+    std::cout << std::endl;
+    return;
+}
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Fragment pliku .vxl wraz z opisem pól},label={voxel_file_code}]
+...
+1 -3 3 pearl				// x y z .mat
+0 -2 3 obsidian				// x y z .mat
+...
+2 0 -1 bronze				// x y z .mat
+...
+\end{lstlisting}
+
 \section{Implementacja wybranych funkcjonalnoœci}
 
 
+\subsection{Optymalizacja rysowania obiektu}
+
+W celu rozwi¹zania problemu rysowania wokseli w œrodku obiektu, zosta³ u¿yty prosty algorytm \ref{culling_alg}. Polega on na iteracji poprzez wszystkie woksele i sprawdzenie na podstawie mapy haszuj¹cej, czy s¹siad istnieje. W przypadku istnienia, nie rysujemy tej œcianki, gdy¿ nie bêdzie widoczna. Efekt algorytmu ukazany zosta³ na rysunku \ref{rys-4x4x4}.
+
+\begin{algorithm} \caption{Algorytm usuwaj¹cy s¹siaduj¹ce œcianki}\label{culling_alg}
+\begin{algorithmic}
+\FOR {$voxel \in voxels $}
+\FOR {$face \in voxel.faces $}
+\IF {$voxel $ $is $ $not $ $adjacent $ $to $ $the $ $face.position $ $voxel $}
+\STATE {$draw $ $face $}
+\ENDIF
+\ENDFOR
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+\begin{figure}[htb]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/stupid4x4x4.png}
+  \caption{przed optymalizacj¹}
+  \label{rys-stupid4x4x4}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/culled4x4x4.png}
+  \caption{po optymalizacji}
+  \label{rys-culled4x4x4}
+\end{subfigure}
+\caption{Model szkieletowy kostki o wymiarach 8x8x8 wokseli}
+\label{rys-4x4x4}
+\end{figure}
+
 \subsection{Interakcja z obiektem}
 
-Najwa¿niejsz¹ funkcjonalnoœci¹ do implementacji by³a interakcja z obiektem. Przyciœniêcie lewego przycisku myszy (\verb|GLFW_MOUSE_BUTTON_LEFT| i \verb|GLFW_PRESS|) w oknie wygenerowanym przez bibliotekê GLFW, pozwala na obliczenie kierunku promienia maj¹cego pocz¹tek w miejscu kamery. W celu obliczenia tego promienia, zastosowana zosta³a funkcja ,,getRayCast'' \cite{tranformation_raycast_page}, której zadaniem jest przekszta³cenie punktu 2D z przestrzeni rzutni (ang. \textit{viewport space}) do promienia 3D w przestrzeni œwiata (ang. \textit{world space}). 
+Najwa¿niejsz¹ funkcjonalnoœci¹ do implementacji by³a interakcja z obiektem. Przyciœniêcie lewego przycisku myszy (\verb|GLFW_MOUSE_BUTTON_LEFT| i \verb|GLFW_PRESS|) w oknie wygenerowanym przez bibliotekê GLFW, pozwala na obliczenie kierunku promienia maj¹cego pocz¹tek w miejscu kamery. W celu obliczenia tego promienia, zastosowana zosta³a metoda ,,getRayCast'' \cite{tranformation_raycast_page}, której zadaniem jest przekszta³cenie punktu 2D z przestrzeni rzutni (ang. \textit{viewport space}) do promienia 3D w przestrzeni œwiata (ang. \textit{world space}). 
 
 \begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,VoxelGame'' odpowiedzialnego za obs³ugê lewego przycisku myszy},label={mouse_code}]
 if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
@@ -81,7 +159,7 @@ if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
     }
 \end{lstlisting}
 
-W celu okreœlenia intersekcji promienia z wokselem, w klasie ,,Object'' zaimplementowano funkcjê ,,CheckRay'' zmodyfikowan¹ na potrzeby tego testu przeciêcia z artyku³u ,,An Efficient and Robust Ray-Box Intersection Algorithm'' \cite{ray_box_article}. Modyfikacja ta doda³a mo¿liwoœæ obliczenia nie tylko pozycji woksela, ale te¿ i jego œcianki. W zale¿noœci od trybu edycji u¿ytkownika, w przypadku intersekcji z wokselem, wykonywane s¹ nastêpuj¹ce funkcje:
+W celu okreœlenia intersekcji promienia z wokselem, w klasie ,,Object'' zaimplementowano metodê ,,CheckRay'' zmodyfikowan¹ na potrzeby tego testu przeciêcia z artyku³u ,,An Efficient and Robust Ray-Box Intersection Algorithm'' \cite{ray_box_article}. Modyfikacja ta doda³a mo¿liwoœæ obliczenia nie tylko pozycji woksela, ale te¿ i jego œcianki. W zale¿noœci od trybu edycji u¿ytkownika, w przypadku intersekcji z wokselem, wykonywane s¹ nastêpuj¹ce metody (przedstawione równie¿ na listingu \ref{voxel_hit_code}):
 
 \begin{itemize}
 \item ,,ChangeColor'' (implementacja w sekcji \nameref{change_color_voxel_label}) s³u¿¹ca do zmiany koloru woksela.
@@ -105,6 +183,9 @@ if (t_voxel)
 
 \subsection{Dodanie woksela}
 \label{add_voxel_label}
+
+Najczêœciej u¿ywan¹ funkcjonalnoœci¹ przez u¿ytkownika bêdzie dodawanie wokseli. Odbywa siê to poprzez przekazanie pozycji woksela docelowego oraz w³aœciwoœci materia³u. Zanim woksel zostanie dodany do modelu 3D, sprawdzane jest wpierw, czy nie wykracza poza ustalone ograniczenia, jak i czy woksela nie ma ju¿ w tym miejscu (w przypadku dodania manualnego). Gdy ju¿ pozycja woksela przejdzie pozytywnie weryfikacje, zostanie ona dodana do modelu. Implementacja tej funkcjonalnoœci zosta³a przedstawiona na listingu \ref{add_voxel_code}.
+
 
 \begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za dodawanie woksela},label={add_voxel_code}]
 void Object::AddVoxel(glm::ivec3 pos, Material mat)
@@ -144,6 +225,8 @@ void Object::AddVoxel(glm::ivec3 pos, Material mat)
 \subsection{Usuniêcie woksela}
 \label{remove_voxel_label}
 
+Z uwagi na zwrócenie wskaŸnika do woksela poprzez funkcjê sprawdzaj¹c¹ promieñ pochodz¹cy z kamery, implementacja usuniêcia woksela jest prostolinijna. Polega ona na ustawieniu \verb|false| w tablicy haszuj¹cej oraz usuniêciu obiektu ,,Voxel'' na podstawie adresu zwróconego woksela.
+
 \begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za usuniêcie woksela},label={remove_voxel_code}]
 void Object::RemoveVoxel(Voxel *voxel)
 {
@@ -156,6 +239,8 @@ void Object::RemoveVoxel(Voxel *voxel)
 \subsection{Zmiana materia³u woksela}
 \label{change_color_voxel_label}
 
+Analogicznie jak w przypadku \nameref{remove_voxel_label}, edycja w³aœciwoœci woksela sprowadza siê do u¿ycia wskaŸnika przekazanego do funkcji. Posiadaj¹c adres woksela, zmieniamy wartoœæ pola na specyfikacjê podanego materia³u przez u¿ytkownika. 
+
 \begin{lstlisting}[language={C++}, caption={Fragment kodu klasy ,,Object'' odpowiedzialnego za zmianê materia³u woksela},label={change_color_voxel_code}]
 void Object::ChangeColor(Voxel *voxel, Material mat)
 {
@@ -163,4 +248,11 @@ void Object::ChangeColor(Voxel *voxel, Material mat)
 }
 \end{lstlisting}
 
-\section{Testy aplikacji}
+\section{Testowanie aplikacji}
+
+Aplikacja zosta³a te¿ przetestowana pod wzglêdem dzia³ania. Z uwagi na postawione wymagania dotycz¹ce responsywnoœci, edytor zbudowany zosta³ z wbudowanymi narzêdziami do mierzenia wydajnoœci (okno ,,Debug''), jak i debugowania (konsola). Testowanie aplikacji podzielono na 3 czêœci:
+\begin{enumerate}
+\item Testowanie przez autora w trakcie budowania aplikacji - W tej fazie, g³ównym motywem testowania by³o, profilowanie aplikacji przy u¿yciu narzêdzi do mierzenia wydajnoœci. Zosta³o zauwa¿one, ¿e w przypadku sprzêtu o ni¿szej wydajnoœci, stworzenie du¿ego modelu 3D w znaczny sposób spowalnia³o dzia³anie aplikacji. Problem zosta³ rozwi¹zany przy u¿yciu zaktualizowanego algorytmu rysowania wokseli \ref{culling_alg}.
+\item Testowanie przez osoby potencjalnie korzystaj¹ce z wbudowanego silnika 3D powsta³ego w niniejszej pracy w innych aplikacjach - Ta faza poœwiêcona by³a funkcjonalnoœciom wejœcia-wyjœcia. Przetestowano miêdzy innymi formaty zapisanych danych przez aplikacjê, pod k¹tem czytelnoœci przez cz³owieka, jak i komputer. Przetestowano prêdkoœæ renderowania dla ma³ych, jak i du¿ych obiektów 3D. 
+\item Testowanie przez osoby u¿ywaj¹ce edytorów graficznych - W tej czêœci stycznoœæ z aplikacj¹ mia³y osoby korzystaj¹ce z programów graficznych na co dzieñ. Do tej grupy wliczaj¹ siê uczniowie szkó³ plastycznych i graficznych oraz studenci kierunków graficznych i gier komputerowych. W tej fazie testowania, za³o¿eniem by³o uzyskanie informacji na temat brakuj¹cych funkcjonalnoœci wed³ug osób testuj¹cych. Zebrane uwagi, zostan¹ uwzglêdnione w kolejnych wersjach edytora.
+\end{enumerate}

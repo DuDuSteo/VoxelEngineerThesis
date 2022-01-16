@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.11)  15 JAN 2022 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.11)  16 JAN 2022 23:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -962,53 +962,68 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count326
 \enitdp@description=\count327
 )
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 33
+(C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.
+sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count328
+\c@ALC@line=\count329
+\c@ALC@rem=\count330
+\c@ALC@depth=\count331
+\ALC@tlm=\skip82
+\algorithmicindent=\skip83
+)
+(C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count332
+\c@subtable=\count333
+)
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 35
 .
- (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
+(C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count328
+\l__color_backend_stack_int=\count334
 \l__pdf_internal_box=\box76
 ) (glowny.aux)
 \openout1 = `glowny.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
+\scratchcounter=\count335
 \scratchdimen=\dimen295
 \scratchbox=\box77
-\nofMPsegments=\count330
-\nofMParguments=\count331
+\nofMPsegments=\count336
+\nofMParguments=\count337
 \everyMPshowfont=\toks45
-\MPscratchCnt=\count332
+\MPscratchCnt=\count338
 \MPscratchDim=\dimen296
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
 \everyMPtoPDFconversion=\toks46
 )
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1021,7 +1036,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 35.
 
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1033,11 +1048,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count335
+\c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
  (glowny.out) (glowny.out)
 \@outlinefile=\write4
 \openout4 = `glowny.out'.
@@ -1045,7 +1060,7 @@ LaTeX Info: Redefining \nameref on input line 33.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count336
+\c@lstlisting=\count342
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1088,37 +1103,37 @@ Package caption Info: End \AtBeginDocument code.
 
 ]
 LaTeX Font Info:    Trying to load font information for OML+plm on input line 3
-4.
+6.
 
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/polski\omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 
 
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 
 
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (34.48378pt too high) detected at line 34
+Overfull \vbox (34.48378pt too high) detected at line 36
  []
 
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 34--34
+Overfull \hbox (6.0pt too wide) in paragraph at lines 36--36
 []|[]|  
  []
 
 
-Overfull \vbox (29.16206pt too high) detected at line 34
+Overfull \vbox (29.16206pt too high) detected at line 36
  []
 
 
-Overfull \hbox (33.1922pt too wide) in paragraph at lines 34--34
+Overfull \hbox (33.1922pt too wide) in paragraph at lines 36--36
  [][] 
  []
 
@@ -1155,7 +1170,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1789) in paragraph at lines 29--30
+Underfull \hbox (badness 1789) in paragraph at lines 28--29
 []\T1/ptm/m/n/12 Rozdziaª 2 sku-pia si¦ na przed-sta-wie-niu do-gª¦b-nie pro-je
 ktu sys-temu, w celu
  []
@@ -1163,20 +1178,14 @@ ktu sys-temu, w celu
 [11
 
 ]
-Underfull \hbox (badness 1484) in paragraph at lines 31--32
+Underfull \hbox (badness 1484) in paragraph at lines 30--31
 []\T1/ptm/m/n/12 Rozdziaª 3 opi-suje za-sto-so-wane tech-no-lo-gie i roz-wi¡-za
 -nia, tªu-ma-cz¡c lo-gik¦ i
  []
 
-) (rozdziali.tex
-Underfull \hbox (badness 1648) in paragraph at lines 33--1
-[]\T1/ptm/m/n/12 Rozdziaª 4 opi-suje re-ali-za-cje apli-ka-cji. Za-wiera w so-b
-ie in-for-ma-cje na te-mat
- []
-
-[12]
+) (rozdziali.tex [12]
 Rozdzia\l  1.
-<grafika/magicavoxel.png, id=214, 1854.93pt x 1084.05pt>
+<grafika/magicavoxel.png, id=209, 1854.93pt x 1084.05pt>
 File: grafika/magicavoxel.png Graphic file (type png)
 <use grafika/magicavoxel.png>
 Package pdftex.def Info: grafika/magicavoxel.png  used on input line 11.
@@ -1184,25 +1193,25 @@ Package pdftex.def Info: grafika/magicavoxel.png  used on input line 11.
 [13
 
  <./grafika/magicavoxel.png>]
-<grafika/mega-voxels-play.png, id=228, 724.20563pt x 1504.8722pt>
+<grafika/mega-voxels-play.png, id=223, 724.20563pt x 1504.8722pt>
 File: grafika/mega-voxels-play.png Graphic file (type png)
 <use grafika/mega-voxels-play.png>
 Package pdftex.def Info: grafika/mega-voxels-play.png  used on input line 30.
 (pdftex.def)             Requested size: 135.27989pt x 281.10657pt.
  [14 <./grafika/mega-voxels-play.png>]
-<grafika/qubicle.png, id=240, 1854.93pt x 1084.05pt>
+<grafika/qubicle.png, id=235, 1854.93pt x 1084.05pt>
 File: grafika/qubicle.png Graphic file (type png)
 <use grafika/qubicle.png>
 Package pdftex.def Info: grafika/qubicle.png  used on input line 51.
 (pdftex.def)             Requested size: 396.91325pt x 231.95795pt.
  [15 <./grafika/qubicle.png>]
-<grafika/goxel.png, id=252, 1854.93pt x 1084.05pt>
+<grafika/goxel.png, id=247, 1854.93pt x 1084.05pt>
 File: grafika/goxel.png Graphic file (type png)
 <use grafika/goxel.png>
 Package pdftex.def Info: grafika/goxel.png  used on input line 72.
 (pdftex.def)             Requested size: 396.91325pt x 231.95795pt.
  [16 <./grafika/goxel.png>]
-<grafika/voxedit-beta.png, id=264, 1855.93375pt x 1084.05pt>
+<grafika/voxedit-beta.png, id=259, 1855.93375pt x 1084.05pt>
 File: grafika/voxedit-beta.png Graphic file (type png)
 <use grafika/voxedit-beta.png>
 Package pdftex.def Info: grafika/voxedit-beta.png  used on input line 93.
@@ -1212,19 +1221,19 @@ Package pdftex.def Info: grafika/voxedit-beta.png  used on input line 93.
 ]
 Rozdzia\l  2.
 [19]
-<grafika/diagram-stanow-edycja.png, id=287, 825.0825pt x 621.07031pt>
+<grafika/diagram-stanow-edycja.png, id=282, 825.0825pt x 621.07031pt>
 File: grafika/diagram-stanow-edycja.png Graphic file (type png)
 <use grafika/diagram-stanow-edycja.png>
 Package pdftex.def Info: grafika/diagram-stanow-edycja.png  used on input line 
 49.
 (pdftex.def)             Requested size: 441.01773pt x 331.97081pt.
-<grafika/diagram-stanow-wczytywanie.png, id=288, 663.22781pt x 186.6975pt>
+<grafika/diagram-stanow-wczytywanie.png, id=283, 663.22781pt x 186.6975pt>
 File: grafika/diagram-stanow-wczytywanie.png Graphic file (type png)
 <use grafika/diagram-stanow-wczytywanie.png>
 Package pdftex.def Info: grafika/diagram-stanow-wczytywanie.png  used on input 
 line 58.
 (pdftex.def)             Requested size: 441.01773pt x 124.14658pt.
-<grafika/diagram-przypadkow-uzycia.png, id=290, 778.91pt x 854.19125pt>
+<grafika/diagram-przypadkow-uzycia.png, id=285, 778.91pt x 854.19125pt>
 File: grafika/diagram-przypadkow-uzycia.png Graphic file (type png)
 <use grafika/diagram-przypadkow-uzycia.png>
 Package pdftex.def Info: grafika/diagram-przypadkow-uzycia.png  used on input l
@@ -1287,589 +1296,789 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 9.
 (C:\Users\palek\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-<grafika/struct_voxel__coll__graph.png, id=401, 173.89969pt x 114.4275pt>
+<grafika/struct_voxel__coll__graph.png, id=396, 173.89969pt x 114.4275pt>
 File: grafika/struct_voxel__coll__graph.png Graphic file (type png)
 <use grafika/struct_voxel__coll__graph.png>
 Package pdftex.def Info: grafika/struct_voxel__coll__graph.png  used on input l
 ine 35.
 (pdftex.def)             Requested size: 220.50887pt x 145.10304pt.
 
-[29
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- <./grafika/struct_voxel__coll__graph.png>]
+ [29
+
+]
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.45 void 
+l.47 void 
           saveMaterial(Material mat, const std::string &matName, bool edit)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 {
+l.48 {
       
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.47 	std:
+l.49 	std:
           :cout << "MATERIAL::SAVE_MATERIAL ";
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.48 	std:
+l.50 	std:
           :string matPath = std::string(FILES_PATH) + matName + MATERIAL_FIL...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.49 	std:
+l.51 	std:
           :cout << matPath << " ";
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50 	std:
+l.52 	std:
           :ofstream file(matPath);
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.7})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 	if 
+l.53 	if 
          (file.bad() || file.fail())
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.8})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 	{
+l.54 	{
        
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.9})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.53 		std:
+l.55 		std:
            :cout << "FILE_BAD" << std::endl;
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.10}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 		return;
+l.56 		return;
               
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.11}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 	}
+l.57 	}
        
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.12}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 	file 
+l.58 	file 
            << mat.name << std::endl;
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.13}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.57 	file 
+l.59 	file 
            << mat.ambient[0] << " " << mat.ambient[1] << " " << mat.ambient[...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.14}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 	file 
+l.60 	file 
            << mat.diffuse[0] << " " << mat.diffuse[1] << " " << mat.diffuse[...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.15}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 	file 
+l.61 	file 
            << mat.specular[0] << " " << mat.specular[1] << " " << mat.specul...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.16}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 	file 
+l.62 	file 
            << mat.shininess;
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.17}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.61 	file.
+l.63 	file.
            close();
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.18}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 	...
+l.64 	...
          
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.19}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 }
+l.65 }
       
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 if 
-        (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
+l.69 obsidian	
+              			// Material name
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74     {
-          
+l.70 0.05375 
+             0.05 0.06625 			// R G B Ambient
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75       glm:
-               :vec3 ray_origin = voxelGame->camera->Position;
+l.71 0.18275 
+             0.17 0.22525 			// R G B Diffuse
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76       glm:
-               :vec3 ray_dir = voxelGame->getRayCast(voxelGame->mvp.projecti...
-[30]
+l.72 0.332741 
+              0.328634 0.346435 		// R G B Specular
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.77       glm:
-               :vec3 newBlockLoc = glm::vec3(0.f);
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.78       Voxel 
-                 *t_voxel = voxelGame->object->CheckRay(ray_origin, ray_dir,...
-
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.7})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.80       ...
-              
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.8})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.80       ...
-              
-pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.9})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.81     }
-          
+l.73 0.3	
+         				// Shininess [30 <./grafika/struct_voxel__coll__graph.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 if 
-        (t_voxel)
+l.81 void 
+          Object::Save()
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94       {
-            
+l.82 {
+      
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.95         if 
-                (voxelGame->stateHandler->GetColorMode())
+l.83     std:
+             :cout << "OBJECT::SAVE " << std::string(FILES_PATH) + name + st...
+
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.96           voxelGame-
-                         >object->ChangeColor(t_voxel, loadMaterial(voxelGam...
+l.84     std:
+             :ofstream file(std::string(FILES_PATH) + name + std::string(VOX...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97         if 
-                (voxelGame->stateHandler->GetRemoveMode())
+l.85     if 
+            (file.bad() || file.fail())
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98           voxelGame-
-                         >object->RemoveVoxel(t_voxel);
+l.86     {
+          
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.7})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99         if 
-                (voxelGame->stateHandler->GetAddMode())
+l.87         std:
+                 :cout << "FILE_BAD" << std::endl;
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.8})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100         {
+l.88         return;
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.9})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.89     }
+          
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.10}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90     for 
+             (Voxel voxel : m_voxels)
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.11}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91     {
+          
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.12}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.92         file 
+                  << voxel.pos.x << " " << voxel.pos.y << " " << voxel.pos.z...
+
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.13}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93     }
+          
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.14}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94     file.
+              close();
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.15}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.95     std:
+             :cout << std::endl;
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.16}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96     return;
+                
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.17}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.97 }
+      
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.101 ...
+         
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 1 
+        -3 3 pearl				// x y z .mat
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.103 0 
+        -2 3 obsidian				// x y z .mat
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 ...
+         
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.105 2 
+        0 -1 bronze				// x y z .mat
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.106 ...
+         
+Overfull \hbox (17.62482pt too wide) detected at line 126
+[][] 
+ []
+
+<grafika/stupid4x4x4.png, id=446, 497.60907pt x 466.74374pt>
+File: grafika/stupid4x4x4.png Graphic file (type png)
+<use grafika/stupid4x4x4.png>
+Package pdftex.def Info: grafika/stupid4x4x4.png  used on input line 132.
+(pdftex.def)             Requested size: 154.35553pt x 144.78165pt.
+<grafika/culled4x4x4.png, id=447, 511.15968pt x 469.755pt>
+File: grafika/culled4x4x4.png Graphic file (type png)
+<use grafika/culled4x4x4.png>
+Package pdftex.def Info: grafika/culled4x4x4.png  used on input line 138.
+(pdftex.def)             Requested size: 154.35553pt x 141.85223pt.
+
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [31]
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.151 if 
+         (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.152     {
+           
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.153       glm:
+                :vec3 ray_origin = voxelGame->camera->Position;
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154       glm:
+                :vec3 ray_dir = voxelGame->getRayCast(voxelGame->mvp.project...
+
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.155       glm:
+                :vec3 newBlockLoc = glm::vec3(0.f);
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.156       Voxel 
+                  *t_voxel = voxelGame->object->CheckRay(ray_origin, ray_dir...
+
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.7})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158       ...
+               
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.8})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.158       ...
                
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.9})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.101           voxelGame-
+l.159     }
+            [32 <./grafika/stupid4x4x4.png> <./grafika/culled4x4x4.png>]
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.171 if 
+         (t_voxel)
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172       {
+             
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.173         if 
+                 (voxelGame->stateHandler->GetColorMode())
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.174           voxelGame-
+                          >object->ChangeColor(t_voxel, loadMaterial(voxelGa...
+
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.175         if 
+                 (voxelGame->stateHandler->GetRemoveMode())
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.176           voxelGame-
+                          >object->RemoveVoxel(t_voxel);
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.7})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.177         if 
+                 (voxelGame->stateHandler->GetAddMode())
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.8})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.178         {
+               
+pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.9})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179           voxelGame-
                           >object->AddVoxel(t_voxel->pos + newBlockLoc, load...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.10}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102         }
+l.180         }
                
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.11}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103       }
+l.181       }
              
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.110 void 
+l.191 void 
            Object::AddVoxel(glm::ivec3 pos, Material mat)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 {
+l.192 {
        
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.112     glm:
+l.193     glm:
               :ivec3 t_pos = glm::ivec3(VOXEL_COUNT / 2 + pos.x, VOXEL_COUNT...
-[31]
+[33]
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113     if 
+l.194     if 
              (t_pos.x < 0 || t_pos.x > VOXEL_COUNT)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.114     {
+l.195     {
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115         std:
+l.196         std:
                   :cout << "OBJECT::ADD_VOXEL::POS::X Out of bounds " << std...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.7})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.116         return;
+l.197         return;
                      
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.8})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117     }
+l.198     }
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.9})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118     if 
+l.199     if 
              (t_pos.y < 0 || t_pos.y > VOXEL_COUNT)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.10}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119     {
+l.200     {
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.11}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.120         std:
+l.201         std:
                   :cout << "OBJECT::ADD_VOXEL::POS::Y Out of bounds " << std...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.12}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121         return;
+l.202         return;
                      
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.13}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.122     }
+l.203     }
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.14}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123     if 
+l.204     if 
              (t_pos.z < 0 || t_pos.z > VOXEL_COUNT)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.15}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.124     {
+l.205     {
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.16}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125         std:
+l.206         std:
                   :cout << "OBJECT::ADD_VOXEL::POS::Z Out of bounds " << std...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.17}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.126         return;
+l.207         return;
                      
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.18}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.127     }
+l.208     }
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.19}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128     if 
+l.209     if 
              (m_hashVoxels[t_pos.x][t_pos.y][t_pos.z])
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.20}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.129     {
+l.210     {
            
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.21}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.130         std:
+l.211         std:
                   :cout << "OBJECT::ADD_VOXEL Voxel already here" << std::endl;
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 void 
+l.231 void 
            Object::RemoveVoxel(Voxel *voxel)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.149 {
+l.232 {
        
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150     glm:
+l.233     glm:
               :ivec3 t_pos = glm::ivec3(VOXEL_COUNT / 2 + voxel->pos.x, VOXE...
 
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151     m_hashVoxels[
+l.234     m_hashVoxels[
                        t_pos.x][t_pos.y][t_pos.z] = false;
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.5})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152     m_voxels.
+l.235     m_voxels.
                    erase(m_voxels.begin() + (voxel - &m_voxels.front()));
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.6})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.153 }
-       
+l.236 }
+        [34]
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.1})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 void 
+l.245 void 
            Object::ChangeColor(Voxel *voxel, Material mat)
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.2})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.161 {
+l.246 {
        
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.3})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162     voxel-
+l.247     voxel-
                 >mat = mat;
 pdfTeX warning (ext4): destination with the same identifier (name{lstnumber.4})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.163 }
-        [32]) (rozdzialv.tex [33] [34
+l.248 }
+       ) (rozdzialv.tex [35] [36
 
 ]
 Rozdzia\l  5.
-<grafika/voxel-editor-main.png, id=488, 962.84718pt x 564.60938pt>
+<grafika/voxel-editor-main.png, id=528, 962.84718pt x 564.60938pt>
 File: grafika/voxel-editor-main.png Graphic file (type png)
 <use grafika/voxel-editor-main.png>
 Package pdftex.def Info: grafika/voxel-editor-main.png  used on input line 11.
 (pdftex.def)             Requested size: 396.91325pt x 232.74054pt.
-<grafika/voxel-editor-scene-edit.png, id=490, 252.945pt x 140.77594pt>
+<grafika/voxel-editor-scene-edit.png, id=530, 252.945pt x 140.77594pt>
 File: grafika/voxel-editor-scene-edit.png Graphic file (type png)
 <use grafika/voxel-editor-scene-edit.png>
 Package pdftex.def Info: grafika/voxel-editor-scene-edit.png  used on input lin
-e 20.
+e 22.
 (pdftex.def)             Requested size: 264.61333pt x 147.27347pt.
-<grafika/voxel-editor-material-edit.png, id=492, 222.8325pt x 171.64125pt>
+<grafika/voxel-editor-material-edit.png, id=532, 222.8325pt x 171.64125pt>
 File: grafika/voxel-editor-material-edit.png Graphic file (type png)
 <use grafika/voxel-editor-material-edit.png>
 Package pdftex.def Info: grafika/voxel-editor-material-edit.png  used on input 
-line 29.
+line 33.
 (pdftex.def)             Requested size: 264.61333pt x 203.83917pt.
-[35 <./grafika/voxel-editor-main.png> <./grafika/voxel-editor-scene-edit.png>]
-<grafika/voxel-editor-rgb.png, id=502, 231.11343pt x 253.69781pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37 <./grafika/voxel-editor-main.png>]
+<grafika/voxel-editor-rgb.png, id=543, 231.11343pt x 253.69781pt>
 File: grafika/voxel-editor-rgb.png Graphic file (type png)
 <use grafika/voxel-editor-rgb.png>
-Package pdftex.def Info: grafika/voxel-editor-rgb.png  used on input line 38.
+Package pdftex.def Info: grafika/voxel-editor-rgb.png  used on input line 44.
 (pdftex.def)             Requested size: 220.50887pt x 242.05675pt.
-<grafika/voxel-editor-debug-edit.png, id=504, 162.6075pt x 103.88812pt>
+
+Underfull \vbox (badness 2689) has occurred while \output is active []
+
+ [38 <./grafika/voxel-editor-scene-edit.png> <./grafika/voxel-editor-material-e
+dit.png>]
+<grafika/voxel-editor-debug-edit.png, id=555, 162.6075pt x 121.20282pt>
 File: grafika/voxel-editor-debug-edit.png Graphic file (type png)
 <use grafika/voxel-editor-debug-edit.png>
 Package pdftex.def Info: grafika/voxel-editor-debug-edit.png  used on input lin
-e 47.
-(pdftex.def)             Requested size: 176.40439pt x 112.71109pt.
-<grafika/voxel-editor-window-options.png, id=508, 229.60782pt x 110.66344pt>
+e 55.
+(pdftex.def)             Requested size: 176.40439pt x 131.49629pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./grafika/voxel-editor-rgb.png> <./grafika/voxel-editor-debug-edit.png>]
+<grafika/voxel-editor-window-options.png, id=566, 229.60782pt x 110.66344pt>
 File: grafika/voxel-editor-window-options.png Graphic file (type png)
 <use grafika/voxel-editor-window-options.png>
 Package pdftex.def Info: grafika/voxel-editor-window-options.png  used on input
- line 56.
+ line 66.
 (pdftex.def)             Requested size: 220.50887pt x 106.28294pt.
-<grafika/voxel-editor-small.png, id=509, 169.38281pt x 158.84344pt>
+<grafika/voxel-editor-small.png, id=567, 169.38281pt x 158.84344pt>
 File: grafika/voxel-editor-small.png Graphic file (type png)
 <use grafika/voxel-editor-small.png>
-Package pdftex.def Info: grafika/voxel-editor-small.png  used on input line 63.
+Package pdftex.def Info: grafika/voxel-editor-small.png  used on input line 73.
 
 (pdftex.def)             Requested size: 176.40439pt x 165.43323pt.
-<grafika/voxel-editor-edit-mode.png, id=511, 149.8097pt x 40.65187pt>
+<grafika/voxel-editor-edit-mode.png, id=569, 149.8097pt x 40.65187pt>
 File: grafika/voxel-editor-edit-mode.png Graphic file (type png)
 <use grafika/voxel-editor-edit-mode.png>
 Package pdftex.def Info: grafika/voxel-editor-edit-mode.png  used on input line
- 72.
+ 84.
 (pdftex.def)             Requested size: 176.40439pt x 47.87201pt.
-<grafika/voxel-editor-file-options.png, id=514, 214.55156pt x 103.13531pt>
+<grafika/voxel-editor-file-options.png, id=572, 214.55156pt x 103.13531pt>
 File: grafika/voxel-editor-file-options.png Graphic file (type png)
 <use grafika/voxel-editor-file-options.png>
 Package pdftex.def Info: grafika/voxel-editor-file-options.png  used on input l
-ine 81.
+ine 95.
 (pdftex.def)             Requested size: 176.40439pt x 84.7981pt.
 
-Underfull \vbox (badness 1910) has occurred while \output is active []
+Underfull \vbox (badness 1389) has occurred while \output is active []
 
- [36 <./grafika/voxel-editor-material-edit.png>]
-<grafika/voxel-editor-open.png, id=528, 193.47281pt x 58.71938pt>
+ [40 <./grafika/voxel-editor-window-options.png> <./grafika/voxel-editor-small.
+png>]
+<grafika/voxel-editor-open.png, id=584, 193.47281pt x 58.71938pt>
 File: grafika/voxel-editor-open.png Graphic file (type png)
 <use grafika/voxel-editor-open.png>
-Package pdftex.def Info: grafika/voxel-editor-open.png  used on input line 90.
+Package pdftex.def Info: grafika/voxel-editor-open.png  used on input line 104.
+
 (pdftex.def)             Requested size: 176.40439pt x 53.53952pt.
-<grafika/voxel-editor-save-as.png, id=529, 193.47281pt x 59.47218pt>
+<grafika/voxel-editor-save-as.png, id=585, 193.47281pt x 59.47218pt>
 File: grafika/voxel-editor-save-as.png Graphic file (type png)
 <use grafika/voxel-editor-save-as.png>
-Package pdftex.def Info: grafika/voxel-editor-save-as.png  used on input line 9
-7.
+Package pdftex.def Info: grafika/voxel-editor-save-as.png  used on input line 1
+11.
 (pdftex.def)             Requested size: 176.40439pt x 54.22594pt.
-) (rozdzialvi.tex [37 <./grafika/voxel-editor-rgb.png> <./grafika/voxel-editor-
-debug-edit.png>] [38 <./grafika/voxel-editor-window-options.png> <./grafika/vox
-el-editor-small.png> <./grafika/voxel-editor-edit-mode.png> <./grafika/voxel-ed
-itor-file-options.png> <./grafika/voxel-editor-open.png>] [39 <./grafika/voxel-
-editor-save-as.png>] [40
+)
+(podsumowanie.tex [41 <./grafika/voxel-editor-edit-mode.png> <./grafika/voxel-e
+ditor-file-options.png> <./grafika/voxel-editor-open.png>] [42 <./grafika/voxel
+-editor-save-as.png>]) (glowny.bbl [43
+
+] [44
 
 ]
-Rozdzia\l  6.
-) (podsumowanie.tex [41] [42
-
-]) (glowny.bbl [43] [44
-
-]
-Underfull \hbox (badness 1552) in paragraph at lines 41--44
+Underfull \hbox (badness 1552) in paragraph at lines 47--50
 []\T1/ptm/m/n/12 International Or-ga-ni-za-tion for Stan-dar-di-za-tion.  ISO-/
 IEC 14882:2011 stan-dard.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--73
+Underfull \hbox (badness 10000) in paragraph at lines 74--79
 \T1/pcr/m/n/12 / / www . khronos . org / registry / OpenGL / specs / gl / GLSLa
 ngSpec . 3 .
  []
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 85--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--96
 []\T1/ptm/m/n/12 Christian Koh-ler.  Path In-tel-li-sense exten-sion for Vi-sua
 l Stu-dio Code.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--90
+Underfull \hbox (badness 10000) in paragraph at lines 91--96
 [][]$\T1/pcr/m/n/12 https : / / marketplace . visualstudio . com / items ? item
 Name =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--103
 \T1/pcr/m/n/12 visualstudio . com / items ? itemName = ms-[]vscode . cpptools$[
 ][]\T1/ptm/m/n/12 , stan z
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 99--104
+Underfull \hbox (badness 5189) in paragraph at lines 105--110
 []\T1/ptm/m/n/12 Microsoft.  CMake To-ols exten-sion for Vi-sual Stu-dio Code. 
  [][]$\T1/pcr/m/n/12 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--104
+Underfull \hbox (badness 10000) in paragraph at lines 105--110
 \T1/pcr/m/n/12 / / marketplace . visualstudio . com / items ? itemName = ms-[]v
 scode .
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 111--114
+Underfull \hbox (badness 1540) in paragraph at lines 117--120
 []\T1/ptm/m/n/12 ocornut.  Dear Im-Gui.  [][]$\T1/pcr/m/n/12 https : / / github
  . com / ocornut / imgui$[][]\T1/ptm/m/n/12 , stan z
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
+Underfull \hbox (badness 10000) in paragraph at lines 127--132
 []\T1/ptm/m/n/12 VSCode Icons Team.  vscode-icons exten-sion for Vi-sual Stu-di
 o Code.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
+Underfull \hbox (badness 10000) in paragraph at lines 127--132
 [][]$\T1/pcr/m/n/12 https : / / marketplace . visualstudio . com / items ? item
 Name =
  []
@@ -1882,11 +2091,11 @@ Name =
 
 ] [48
 
-] (glowny.lof)
+] (glowny.lof [49])
 \tf@lof=\write7
 \openout7 = `glowny.lof'.
 
- [49] [50] (glowny.lol)
+ [50] (glowny.lol)
 \tf@lol=\write8
 \openout8 = `glowny.lol'.
 
@@ -1904,28 +2113,32 @@ Name =
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `glowny.out' has not changed.
-(rerunfilecheck)             Checksum: 3B2D2BA50E4C50DA6BCF34712E5EDDBE;4154.
+(rerunfilecheck)             Checksum: A9718C168D17BB0B9BA49E3675E9612B;4079.
  ) 
 Here is how much of TeX's memory you used:
- 29929 strings out of 478621
- 535736 string characters out of 2844219
- 1111614 words of memory out of 3000000
- 47230 multiletter control sequences out of 15000+600000
- 470253 words of font info for 123 fonts, out of 8000000 for 9000
+ 30233 strings out of 478621
+ 540659 string characters out of 2844219
+ 1106737 words of memory out of 3000000
+ 47501 multiletter control sequences out of 15000+600000
+ 472975 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,13n,102p,630b,1982s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,13n,102p,629b,1982s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSymb
-olA.enc}{C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
-nc}<C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/Mn
-Symbol10.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/urw/cour
-ier/ucrb8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/urw/co
-urier/ucrr8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-times/utmb8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-times/utmr8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on glowny.pdf (53 pages, 1238940 bytes).
+olD.enc}{C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.e
+nc}{C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/mnsymbol/MnSym
+bolA.enc}{C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
+enc}<C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/public/mnsymbol/M
+nSymbol10.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+mnsymbol/MnSymbol12.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/pl/plmi12.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/urw/courier/ucrb8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/urw/courier/ucrr8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmb8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmr8a.pfb><C:/Users/palek/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on glowny.pdf (53 pages, 1396324 bytes).
 PDF statistics:
- 757 PDF objects out of 1000 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 237 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
