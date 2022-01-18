@@ -3,7 +3,7 @@
 Dokumentacja techniczna aplikacji stanowi wa¿ny element u¿ytkownika do nawigacji po systemie. Zapewnia ona wprowadzenie do wygl¹du aplikacji, jak i opisuje w jaki sposób osi¹gn¹æ po¿¹dany efekt w aplikacji.
 
 \section{Prezentacja systemu}
-
+\label{prezentacja_systemu}
 G³ównym za³o¿eniem interfejsu by³a prostota i customizowalnoœæ. Osi¹gniête to zosta³o poprzez wyeksponowanie modelu, który jest renderowany w czasie rzeczywistym przez silnik 3D edytora. 
 
 \begin{figure}[htb]
@@ -52,27 +52,34 @@ Okno ,,Debug'' (rysunek \ref{rys-voxel-editor-debug-edit}) powsta³o specjalnie z
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-debug-edit.png}
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-debug-edit.png}
 \caption{Okno z informacjami o dzia³aniu silnika graficznego, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-debug-edit}
 \end{figure}
 
 \subsection{Zarz¹dzanie oknami}
 
-Przedstawione powy¿ej okna aplikacji, s¹ dostêpne z poziomu paska nawigacji (rysunek \ref{rys-voxel-editor-window-options}) za pomoc¹ którego mo¿na je pokazywaæ lub chowaæ. Dla ka¿dego z tych okienek, u¿ytkownik mo¿e zmieniæ ich pozycjê, wielkoœæ, jak i zminimalizowaæ, wed³ug w³asnego uznania. Na rysunku \ref{rys-voxel-editor-small} przedstawione zosta³o zmniejszone okno ,,Material'' z rysunku \ref{rys-voxel-editor-material-edit}. 
+Przedstawione powy¿ej okna aplikacji, s¹ dostêpne z poziomu paska nawigacji (rysunek \ref{rys-voxel-editor-window-options}) za pomoc¹ którego mo¿na je pokazywaæ lub chowaæ. Dla ka¿dego z tych okienek, u¿ytkownik mo¿e zmieniæ ich pozycjê, wielkoœæ, jak i zminimalizowaæ (rysunek \ref{rys-voxel-editor-minimized}), wed³ug w³asnego uznania. Na rysunku \ref{rys-voxel-editor-small} przedstawione zosta³o zmniejszone okno ,,Material'' z rysunku \ref{rys-voxel-editor-material-edit}. 
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-window-options.png}
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-window-options.png}
 \caption{Pasek nawigacyjny z wybran¹ opcj¹ ,,Window'', Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-window-options}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-small.png}
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-small.png}
 \caption{Okno ,,Material'' ze zmienionym rozmiarem przez u¿ytkownika, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-small}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-minimized.png}
+\caption{Okno ,,Material'' w wersji zminimalizowanej, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-minimized}
 \end{figure}
 
 \subsection{Okno ,,Edit Modes''}
@@ -81,7 +88,7 @@ G³ównym oknem do zmiany trybów interakcji z modelem 3D jest ,,Edit Modes'' ukaza
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-edit-mode.png}
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-edit-mode.png}
 \caption{Okno trybu edycji modelu 3D, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-edit-mode}
 \end{figure}
@@ -92,29 +99,197 @@ Pasek z rysunku \ref{rys-voxel-editor-window-options} posiada jeszcze jedn¹ opcj
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-file-options.png}
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/voxel-editor-file-options.png}
 \caption{Pasek nawigacyjny z wybran¹ opcj¹ ,,File'', Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-file-options}
 \end{figure}
 
-W przypadku opcji ,,Open Model'' przedstawionej na rysunku \ref{rys-voxel-editor-open} oraz ,,Save As'' na rysunku \ref{rys-voxel-editor-save-as}, u¿ytkownik wprowadza œcie¿kê wzglêdn¹ do pliku w celu jego wczytania, b¹dŸ w przypadku opcji drugiej, jego nazwê. 
+W przypadku opcji ,,Open Model'' przedstawionej na rysunku \ref{rys-voxel-editor-open} oraz ,,Save As'' na rysunku \ref{rys-voxel-editor-save-as}, u¿ytkownik wprowadza œcie¿kê wzglêdn¹ do pliku w celu jego wczytania, b¹dŸ w przypadku opcji drugiej, jego nazwê. Opcja ,,New Model'' powoduje usuniêcie wszelkich postêpów pracy nad aktualnym obiektem, by przywróciæ stan pocz¹tkowych modelu 3D. Operacja ta jest niemo¿liwa do cofniêcia.
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-open.png}
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-open.png}
 \caption{Okno wczytania modeli do edytora, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-open}
 \end{figure}
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/voxel-editor-save-as.png}
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/voxel-editor-save-as.png}
 \caption{Okno zapisu aktualnego modelu 3D do pliku, Ÿród³o: opracowanie w³asne} 
 \label{rys-voxel-editor-save-as}
 \end{figure}
 
+\subsection{Konsola}
 
+W tymi miejscu, znajduj¹ siê wszystkie informacje na temat czynnoœci u¿ytkownika w aplikacji. G³ównym za³o¿eniem konsoli jest mo¿liwoœæ okreœlenia przyczyny krytycznego wy³¹czenia edytora. Narzêdzie te jest uruchamiane i wy³¹czane wraz z edytorem.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.9\textwidth, keepaspectratio]{grafika/voxel-editor-console.png}
+\caption{Konsola aplikacji, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-console}
+\end{figure}
 
 \section{Instrukcja u¿ytkownika}
 
-W podrozdziale
+W pe³ni zbudowana aplikacja w wersji przygotowanej w ramach niniejszej pracy jest dostêpna pod adresem \url{https://github.com/DuDuSteo/VoxelGameEngine/releases/tag/v1.0.0} \cite{app_page}. Po pobraniu pliku \verb|VoxelEditor_v1.0.0_WIN_64.zip|, wystarczy tylko wyodrêbniæ zawartoœæ. Edytor widnieje pod nazw¹ \verb|VoxelEditor.exe| w przypadku systemów \verb|Windows|. Aplikacja przyjê³a standardowy wœród edytorów graficznych model poruszania siê kamer¹:
+\begin{itemize}
+\item \texttt{Œrodkowy przycisk myszy + Ruch kursorem} - zmiana k¹ta kamery.
+\item \texttt{Œrodkowy przycisk myszy + Shift + Ruch kursorem} - zmiana pozycji kamery.
+\end{itemize} 
+Interakcja z modelem odbywa siê poprzez \texttt{lewy przycisk myszy}.
+
+\subsection{Uruchomienie programu}
+
+Aby uruchomiæ program, nale¿y dwukrotnie nacisn¹æ lewym przyciskiem myszy na \verb|VoxelEditor.exe|. Po uruchomieniu programu u¿ytkownik zostaje przywitany ekranem startowym aplikacji przedstawionym na rysunku \ref{rys-voxel-editor-with-console}. Wszystkie ukryte okna, przedstawione w podrozdziale ,,\nameref{prezentacja_systemu}'' znajduj¹ siê w \verb|Pasek narzêdziowy -> Window|.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=\textwidth, keepaspectratio]{grafika/voxel-editor-with-console.png}
+\caption{Edytor modeli po uruchomieniu wraz z konsol¹, Ÿród³o: opracowanie w³asne} 
+\label{rys-voxel-editor-with-console}
+\end{figure}
+
+\subsection{Dodanie nowego materia³u}
+
+Dodanie nowego materia³u do listy materia³ów w aplikacji, odbywa siê poprzez okno ,,Material''. W podstawowym widoku edytora, by otworzyæ okno materia³ów, nale¿y pos³u¿yæ siê paskiem narzêdziowym, wybieraj¹c w nim \verb|Window -> Material| jak na rysunku \ref{rys-inst-select-material}.  
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.4\textwidth, keepaspectratio]{grafika/inst-select-material.png}
+\caption{Wybór okna ,,Material'' z paska narzêdziowego, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-select-material}
+\end{figure}
+
+Specyfikacja materia³ów opiera siê na implementacji w silniku cieniowania Phonga (ang. \textit{Phong shading}) \cite{phong_implementation}. Po wyborze nazwy, u¿ytkownik wype³nia danymi pola odpowiedzialne za odbicie œwiat³a otoczenia (ang. \textit{ambient}), rozproszonego (ang. \textit{diffuse}) oraz odbijanego zwierciadlanie (ang. \textit{specular}) (rysunek \ref{rys-inst-material-window}). Mo¿liwe jest te¿ wybranie koloru z okna kolorów, które jest widoczne po klikniêciu w kwadrat przedstawiony na rysunku \ref{rys-inst-material-window-color}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/inst-material-window.png}
+\caption{Prezentacja w³aœciwoœci materia³u w oknie ,,Material'', Ÿród³o: opracowanie w³asne}
+\label{rys-inst-material-window}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/inst-material-window-color.png}
+\caption{Okno wyboru koloru z kwadratu kolorów, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-material-window-color}
+\end{figure}
+
+
+\subsection{Dodanie woksela}
+
+Aby postawiæ woksel, u¿ytkownik musi mieæ w³¹czony tryb ,,Add'' w oknie ,,Edit Modes'' i wtedy naje¿d¿a kursorem na interesuj¹c¹ go œciankê (rysunek \ref{rys-inst-material-click}), w celu postawienia woksela. Nowo utworzony woksel, bêdzie posiada³ wszystkie w³aœciwoœci aktywnego materia³u jak na rysunku \ref{rys-inst-add-voxel}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/inst-material-click.png}
+\caption{Klikniêcie na wybran¹ œciankê, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-material-click}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/inst-add-voxel.png}
+\caption{Wynik interakcji z opcj¹ ,,Add'', Ÿród³o: opracowanie w³asne}
+\label{rys-inst-add-voxel}
+\end{figure}
+
+\subsection{Usuniêcie woksela}
+
+Zaznaczaj¹c opcjê ,,Remove'' w oknie ,,Edit Modes'' (rysunek \ref{rys-inst-remove}), wszelkie interakcje z modelem przez u¿ytkownika spowoduj¹ usuniêcie woksela w miejscu klikniêcia. Proces operacji przedstawiony zosta³ na rysunkach \ref{rys-inst-remove-voxel} i \ref{rys-inst-removed-voxel}.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.45\textwidth, keepaspectratio]{grafika/inst-remove.png}
+\caption{Klikniêcie na wybran¹ œciankê, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-remove}
+\vspace{0.5cm}
+\includegraphics[width=0.65\textwidth, keepaspectratio]{grafika/inst-remove-voxel.png}
+\caption{Klikniêcie na wybranego woksela w celu usuniêcia, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-remove-voxel}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.65\textwidth, keepaspectratio]{grafika/inst-removed-voxel.png}
+\caption{Wynik interakcji z opcj¹ ,,Remove'', Ÿród³o: opracowanie w³asne}
+\label{rys-inst-removed-voxel}
+\end{figure}
+
+\subsection{Zmiana materia³u woksela}
+
+Ostatni¹ opcj¹ w oknie ,,Edit Modes'' jest opcja ,,Color'' odpowiadaj¹ca za ,,przemalowanie'' klikniêtego woksela na aktywny materia³. Efekt operacji zmiany materia³u zosta³ pokazany na rysunku \ref{rys-inst-color} i \ref{rys-inst-colored}.
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/inst-color.png}
+\caption{Klikniêcie na wybranego woksela w celu zmiany materia³u, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-color}
+\vspace{0.5cm}
+\includegraphics[width=0.6\textwidth, keepaspectratio]{grafika/inst-colored.png}
+\caption{Wynik interakcji z opcj¹ ,,Color'', Ÿród³o: opracowanie w³asne}
+\label{rys-inst-colored}
+\end{figure}
+
+\subsection{Zmiana oœwietlenia}
+
+Do zmiany ustawieñ oœwietlenia s³u¿y okno ,,Scene'' dostêpne z poziomu paska narzêdzi \verb|Window -> Scene| (rysunek \ref{rys-inst-window-scene}). Nale¿y równie¿ podkreœliæ, ¿e OpenGL korzysta z praworêcznego systemu uk³adu wspó³rzêdnych, co oznacza ¿e dodatnia oœ z jest skierowana w naszym kierunku \cite{learn_opengl}. 
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/inst-window-scene.png}
+\caption{Wybór okna ,,Scene'' z paska narzêdziowego, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-window-scene}
+\end{figure}
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/coordinate_systems_right_handed.png}
+\caption{Przyk³ad praworêcznego systemu uk³adu wspó³rzêdnych, Ÿród³o: \cite{learn_opengl}}
+\label{rys-coordinate_systems_right_handed}
+\end{figure}
+
+Na rysunku \ref{rys-inst-scene-color} przedstawiono efekt oœwietlenia, posiadaj¹cego kierunek œwiat³a o trójwymiarowym wektorze znormalizowanym skierowanym równolegle do k¹ta patrzenia kamery (x: 0, y: 0, z: -1), jak i parametrach ustawionych na kolor bia³y dla œwiat³a otoczenia (ang. \textit{ambient}), rozproszonego (ang. \textit{diffuse}) oraz odbijanego zwierciadlanie (ang. \textit{specular}). Zmiany na parametrach w oknie ,,Scene'' aktualizowane s¹ na silniku 3D w czasie rzeczywistym.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/inst-scene-color.png}
+\caption{Przyk³adowe ustawienia oœwietlenia przy u¿yciu okna ,,Scene'', Ÿród³o: opracowanie w³asne}
+\label{rys-inst-scene-color}
+\end{figure}
+
+\subsection{Zapis i odczyt}
+
+Zapis i odczyt odbywa siê poprzez okna z listy rozwijanej ,,File'' w pasku narzêdziowym. W celu zapisania efektów pracy na modelem 3D, nale¿y wybraæ w pasku narzêdziowym \verb|File -> Save As|. Po klikniêciu ,,Save As'', w aplikacji pojawi siê okno odpowiedzialne za zapis pliku (rysunek \ref{rys-inst-save-as}). U¿ytkownik wpisuje wybran¹ nazwê pliku w polu tekstowym i zatwierdza przyciskiem ,,Save''. Stworzony plik znajduje siê w folderze \texttt{./files/} z rozszerzeniem \verb|.vxl|.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/inst-save-as.png}
+\caption{Okno wyboru nazwy pliku do zapisu, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-save-as}
+\end{figure}
+
+Analogicznie odczyt odbywa siê poprzez otworzenie okna ,,Open Model'', znajduj¹cego siê \verb|File -> Open Model|, jak na przedstawionym rysunku \ref{rys-inst-load}. W przypadku operacji wczytania z pliku, u¿ytkownik przekazujê w polu tekstowym œcie¿kê i rozszerzenie, ani¿eli nazwê pliku.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/inst-load.png}
+\caption{Okno wyboru œcie¿ki pliku do odczytu, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-load}
+\end{figure}
+
+\subsection{Tworzenie nowego modelu 3D}
+
+Aby stworzyæ nowy model, b¹dŸ usun¹æ aktualne efekty pracy w edytorze, nale¿y wybraæ w pasku narzêdziowym \verb|File -> New Model| przedstawion¹ na rysunku \ref{rys-inst-new}. Klikniêcie opcji ,,New Model'' usunie wszystkie aktualne postêpy pracy i przywróci model 3D do stanu pocz¹tkowego.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.5\textwidth, keepaspectratio]{grafika/inst-new.png}
+\caption{Przycisk stworzenia nowego modelu 3D w pasku narzêdziowym, Ÿród³o: opracowanie w³asne}
+\label{rys-inst-new}
+\end{figure}

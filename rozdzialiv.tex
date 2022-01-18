@@ -111,7 +111,49 @@ void Object::Save()
 
 \subsection{Optymalizacja rysowania obiektu}
 
-W celu rozwi¹zania problemu rysowania wokseli w œrodku obiektu, zosta³ u¿yty prosty algorytm \ref{culling_alg}. Polega on na iteracji poprzez wszystkie woksele i sprawdzenie na podstawie mapy haszuj¹cej, czy s¹siad istnieje. W przypadku istnienia, nie rysujemy tej œcianki, gdy¿ nie bêdzie widoczna. Efekt algorytmu ukazany zosta³ na rysunku \ref{rys-4x4x4}.
+W celu rozwi¹zania problemu rysowania wokseli w œrodku obiektu, zosta³ u¿yty prosty algorytm \ref{culling_alg}. Polega on na iteracji poprzez wszystkie woksele i sprawdzenie na podstawie mapy haszuj¹cej, czy s¹siad istnieje. W przypadku istnienia, nie rysujemy tej œcianki, gdy¿ nie bêdzie widoczna. Efekt algorytmu ukazany zosta³ na rysunkach \ref{rys-4x4x4}.
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/stupid4x4x4.png}
+  \caption{model kostki 8x8x8 przed optymalizacj¹}
+  \label{rys-stupid4x4x4}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/culled4x4x4.png}
+  \caption{model kostki 8x8x8 po optymalizacji}
+  \label{rys-culled4x4x4}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/stupiddoggo.png}
+  \caption{model psa przed optymalizacj¹}
+  \label{rys-stupiddoggo}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/culleddoggo.png}
+  \caption{model psa po optymalizacji}
+  \label{rys-culleddoggo}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/stupidlogopb.png}
+  \caption{model loga przed optymalizacj¹}
+  \label{rys-stupiddoggo}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/culledlogopb.png}
+  \caption{model loga po optymalizacji}
+  \label{rys-culleddoggo}
+\end{subfigure}
+\caption{Prezentacja optymalizacji modeli szkieletowych}
+\label{rys-4x4x4}
+\end{figure}
 
 \begin{algorithm} \caption{Algorytm usuwaj¹cy s¹siaduj¹ce œcianki}\label{culling_alg}
 \begin{algorithmic}
@@ -124,24 +166,6 @@ W celu rozwi¹zania problemu rysowania wokseli w œrodku obiektu, zosta³ u¿yty pro
 \ENDFOR
 \end{algorithmic}
 \end{algorithm}
-
-\begin{figure}[htb]
-\centering
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/stupid4x4x4.png}
-  \caption{przed optymalizacj¹}
-  \label{rys-stupid4x4x4}
-\end{subfigure}%
-\begin{subfigure}{.5\textwidth}
-  \centering
-  \includegraphics[width=0.7\textwidth, keepaspectratio]{grafika/culled4x4x4.png}
-  \caption{po optymalizacji}
-  \label{rys-culled4x4x4}
-\end{subfigure}
-\caption{Model szkieletowy kostki o wymiarach 8x8x8 wokseli}
-\label{rys-4x4x4}
-\end{figure}
 
 \subsection{Interakcja z obiektem}
 
@@ -162,9 +186,9 @@ if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
 W celu okreœlenia intersekcji promienia z wokselem, w klasie ,,Object'' zaimplementowano metodê ,,CheckRay'' zmodyfikowan¹ na potrzeby tego testu przeciêcia z artyku³u ,,An Efficient and Robust Ray-Box Intersection Algorithm'' \cite{ray_box_article}. Modyfikacja ta doda³a mo¿liwoœæ obliczenia nie tylko pozycji woksela, ale te¿ i jego œcianki. W zale¿noœci od trybu edycji u¿ytkownika, w przypadku intersekcji z wokselem, wykonywane s¹ nastêpuj¹ce metody (przedstawione równie¿ na listingu \ref{voxel_hit_code}):
 
 \begin{itemize}
-\item ,,ChangeColor'' (implementacja w sekcji \nameref{change_color_voxel_label}) s³u¿¹ca do zmiany koloru woksela.
-\item ,,RemoveVoxel'' (implementacja w sekcji \nameref{remove_voxel_label}) s³u¿¹ca do usuniêcia woksela.
-\item ,,AddVoxel'' (implementacja w sekcji \nameref{add_voxel_label}) s³u¿¹ca do postawienia woksela na œciance obliczonej przez ,,CheckRay''.
+\item ,,ChangeColor'' (implementacja w sekcji ,,\nameref{change_color_voxel_label}'') s³u¿¹ca do zmiany koloru woksela.
+\item ,,RemoveVoxel'' (implementacja w sekcji ,,\nameref{remove_voxel_label}'') s³u¿¹ca do usuniêcia woksela.
+\item ,,AddVoxel'' (implementacja w sekcji ,,\nameref{add_voxel_label}'') s³u¿¹ca do postawienia woksela na œciance obliczonej przez ,,CheckRay''.
 \end{itemize}
 
 \begin{lstlisting}[language={C++}, caption={Dalszy fragment kodu z listingu \ref{mouse_code}},label={voxel_hit_code}]

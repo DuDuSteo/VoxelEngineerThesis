@@ -25,13 +25,19 @@ Dav1dde.
 Joey de~Vries.
 \newblock {\em {Learn OpenGL: Learn modern OpenGL graphics programming in a
   step-by-step fashion.}}
-\newblock KW Publishers, s. 50-53, 95-106, 2020.
+\newblock KW Publishers, s. 50-53, 89, 95-106, 2020.
 
 \bibitem{material_page}
 Frédéric Devernay.
 \newblock {OpenGL/VRML Materials}.
 \newblock \url{http://devernay.free.fr/cours/opengl/materials.html}, stan z
   18.02.2021 r.
+
+\bibitem{app_page}
+Pawe³~Aleksiejuk DuDuSteo.
+\newblock {3D model editor based on voxels - diploma thesis release version}.
+\newblock \url{https://github.com/DuDuSteo/VoxelGameEngine/releases}, stan z
+  16.01.2022 r.
 
 \bibitem{glfw_page}
 elmindreda.
