@@ -1,56 +1,56 @@
 \babel@toc {polish}{}\relax 
 \babel@toc {polish}{}\relax 
-\contentsline {chapter}{Streszczenie}{5}{chapter*.1}%
-\contentsline {chapter}{Wst\k ep}{11}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}Przegl\k ad istniej\k acych rozwi\k aza\'n}{13}{chapter.1}%
-\contentsline {section}{\numberline {1.1}MagicaVoxel}{13}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Mega Voxels Play}{14}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Qubicle}{15}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Goxel}{16}{section.1.4}%
-\contentsline {section}{\numberline {1.5}VoxEdit Beta}{17}{section.1.5}%
-\contentsline {chapter}{\numberline {2}Projekt systemu}{19}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Wymagania}{19}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Wymagania funkcjonalne}{19}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Wymagania niefunkcjonalne}{19}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}Diagramy stan\'ow}{20}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Diagram przypadk\'ow u\.zycia i opisy}{21}{section.2.3}%
-\contentsline {chapter}{\numberline {3}Zastosowane technologie i rozwi\k azania}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}J\k ezyki programowania}{27}{section.3.1}%
-\contentsline {section}{\numberline {3.2}\'Srodowisko programistyczne}{27}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Biblioteki}{28}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Realizacja projektu}{29}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Struktury danych}{29}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}W\IeC {\l }a\'sciwo\'sci materia\IeC {\l }\'ow}{30}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Model 3D}{31}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Implementacja wybranych funkcjonalno\'sci}{31}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Optymalizacja rysowania obiektu}{31}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Interakcja z obiektem}{33}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Dodanie woksela}{34}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Usuni\k ecie woksela}{35}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Zmiana materia\IeC {\l }u woksela}{35}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Testowanie aplikacji}{36}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Dokumentacja techniczna}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Prezentacja systemu}{37}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Okno ,,Scene''}{37}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Okno ,,Material''}{38}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Podgl\k ad wybranego koloru}{38}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Okno ,,Debug''}{39}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Zarz\k adzanie oknami}{40}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}Okno ,,Edit Modes''}{41}{subsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.1.7}Okna manipulacji plikami}{41}{subsection.5.1.7}%
-\contentsline {subsection}{\numberline {5.1.8}Konsola}{42}{subsection.5.1.8}%
-\contentsline {section}{\numberline {5.2}Instrukcja u\.zytkownika}{42}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Uruchomienie programu}{43}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Dodanie nowego materia\IeC {\l }u}{44}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Dodanie woksela}{45}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Usuni\k ecie woksela}{46}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Zmiana materia\IeC {\l }u woksela}{47}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Zmiana o\'swietlenia}{48}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Zapis i odczyt}{49}{subsection.5.2.7}%
-\contentsline {subsection}{\numberline {5.2.8}Tworzenie nowego modelu 3D}{50}{subsection.5.2.8}%
-\contentsline {chapter}{Podsumowanie}{51}{chapter*.46}%
-\contentsline {chapter}{Bibliografia}{55}{chapter*.47}%
-\contentsline {chapter}{Spis tabel}{57}{chapter*.48}%
-\contentsline {chapter}{Spis rysunk\'ow}{61}{chapter*.49}%
-\contentsline {chapter}{Spis listing\'ow}{63}{chapter*.50}%
-\contentsline {chapter}{Spis algorytm\'ow}{65}{chapter*.51}%
+\contentsline {chapter}{Streszczenie}{3}{chapter*.1}%
+\contentsline {chapter}{Wst\k ep}{7}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}Przegl\k ad istniej\k acych rozwi\k aza\'n}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}MagicaVoxel}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Mega Voxels Play}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Qubicle}{11}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Goxel}{12}{section.1.4}%
+\contentsline {section}{\numberline {1.5}VoxEdit Beta}{13}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Projekt systemu}{15}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Wymagania}{15}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Wymagania funkcjonalne}{15}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Wymagania niefunkcjonalne}{15}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}Diagramy stan\'ow}{16}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Diagram przypadk\'ow u\.zycia i opisy}{17}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Zastosowane technologie i rozwi\k azania}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}J\k ezyki programowania}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}\'Srodowisko programistyczne}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Biblioteki}{24}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Realizacja projektu}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Struktury danych}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}W\IeC {\l }a\'sciwo\'sci materia\IeC {\l }\'ow}{26}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Model 3D}{27}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Implementacja wybranych funkcjonalno\'sci}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Optymalizacja rysowania obiektu}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Interakcja z obiektem}{29}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Dodanie woksela}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Usuni\k ecie woksela}{31}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}Zmiana materia\IeC {\l }u woksela}{31}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Testowanie aplikacji}{32}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Dokumentacja techniczna}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Prezentacja systemu}{33}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Okno ,,Scene''}{33}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Okno ,,Material''}{34}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Podgl\k ad wybranego koloru}{34}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Okno ,,Debug''}{35}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Zarz\k adzanie oknami}{36}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Okno ,,Edit Modes''}{37}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Okna manipulacji plikami}{37}{subsection.5.1.7}%
+\contentsline {subsection}{\numberline {5.1.8}Konsola}{38}{subsection.5.1.8}%
+\contentsline {section}{\numberline {5.2}Instrukcja u\.zytkownika}{38}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Uruchomienie programu}{39}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Dodanie nowego materia\IeC {\l }u}{40}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Dodanie woksela}{41}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Usuni\k ecie woksela}{42}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Zmiana materia\IeC {\l }u woksela}{43}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Zmiana o\'swietlenia}{44}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Zapis i odczyt}{45}{subsection.5.2.7}%
+\contentsline {subsection}{\numberline {5.2.8}Tworzenie nowego modelu 3D}{46}{subsection.5.2.8}%
+\contentsline {chapter}{Podsumowanie}{47}{chapter*.46}%
+\contentsline {chapter}{Bibliografia}{51}{chapter*.47}%
+\contentsline {chapter}{Spis tabel}{53}{chapter*.48}%
+\contentsline {chapter}{Spis rysunk\'ow}{56}{chapter*.49}%
+\contentsline {chapter}{Spis listing\'ow}{57}{chapter*.50}%
+\contentsline {chapter}{Spis algorytm\'ow}{59}{chapter*.51}%

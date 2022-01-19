@@ -1,47 +1,47 @@
 \babel@toc {polish}{}\relax 
 \babel@toc {polish}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Ekran startowy programu MagicaVoxel (Windows), \'zr\'od\IeC {\l }o: \cite {magicavoxel_page}\relax }}{13}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Ekran startowy programu Mega Voxels Play (Android), \'zr\'od\IeC {\l }o: \cite {mega_voxels_play_page}\relax }}{14}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Ekran startowy programu Qubicle (Windows, Steam), \'zr\'od\IeC {\l }o: \cite {qubicle_page}\relax }}{15}{figure.caption.6}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Ekran Startowy programu Goxel (Windows), \'zr\'od\IeC {\l }o: \cite {goxel_page}\relax }}{16}{figure.caption.7}%
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Ekran startowy programu VoxEdit Beta (Windows), \'zr\'od\IeC {\l }o: \cite {voxedit_beta_page}\relax }}{17}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Ekran startowy programu MagicaVoxel (Windows)}}{9}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Ekran startowy programu Mega Voxels Play (Android)}}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Ekran startowy programu Qubicle (Windows, Steam)}}{11}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Ekran Startowy programu Goxel (Windows)}}{12}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Ekran startowy programu VoxEdit Beta (Windows)}}{13}{figure.caption.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagram stan\'ow dla edycji, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{20}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagram stan\'ow dla wczytywania, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{21}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram przypadk\'ow u\.zycia, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{22}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagram stan\'ow dla edycji}}{16}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagram stan\'ow dla wczytywania}}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagram przypadk\'ow u\.zycia}}{18}{figure.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram struktury ,,Voxel'', \'zr\'od\IeC {\l }o: wygenerowane za pomoc\k a doxygen \cite {doxygen_page}\relax }}{30}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Prezentacja optymalizacji modeli szkieletowych\relax }}{32}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram struktury ,,Voxel''}}{26}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Prezentacja optymalizacji modeli szkieletowych}}{28}{figure.caption.16}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Ekran startowy programu, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{37}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Okno zmiany ustawie\'n sceny, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{38}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Okno zmiany bie\.z\k acego materia\IeC {\l }u, jak i jego edycji, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{38}{figure.caption.20}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Okno wyboru warto\'sci koloru wraz z podgl\k adem po prawej stronie, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{39}{figure.caption.21}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Okno z informacjami o dzia\IeC {\l }aniu silnika graficznego, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{39}{figure.caption.22}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Pasek nawigacyjny z wybran\k a opcj\k a ,,Window'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{40}{figure.caption.23}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Okno ,,Material'' ze zmienionym rozmiarem przez u\.zytkownika, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{40}{figure.caption.24}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Okno ,,Material'' w wersji zminimalizowanej, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{40}{figure.caption.25}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Okno trybu edycji modelu 3D, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{41}{figure.caption.26}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Pasek nawigacyjny z wybran\k a opcj\k a ,,File'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{41}{figure.caption.27}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Okno wczytania modeli do edytora, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{42}{figure.caption.28}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Okno zapisu aktualnego modelu 3D do pliku, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{42}{figure.caption.29}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Konsola aplikacji, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{42}{figure.caption.30}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Edytor modeli po uruchomieniu wraz z konsol\k a, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{43}{figure.caption.31}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Wyb\'or okna ,,Material'' z paska narz\k edziowego, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{44}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Prezentacja w\IeC {\l }a\'sciwo\'sci materia\IeC {\l }u w oknie ,,Material'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{44}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Okno wyboru koloru z kwadratu kolor\'ow, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{45}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Klikni\k ecie na wybran\k a \'sciank\k e, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{45}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Wynik interakcji z opcj\k a ,,Add'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{46}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Klikni\k ecie na wybran\k a \'sciank\k e, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{46}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Klikni\k ecie na wybranego woksela w celu usuni\k ecia, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{46}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Wynik interakcji z opcj\k a ,,Remove'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{47}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Klikni\k ecie na wybranego woksela w celu zmiany materia\IeC {\l }u, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{47}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Wynik interakcji z opcj\k a ,,Color'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{47}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Wyb\'or okna ,,Scene'' z paska narz\k edziowego, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{48}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Przyk\IeC {\l }ad prawor\k ecznego systemu uk\IeC {\l }adu wsp\'o\IeC {\l }rz\k ednych, \'zr\'od\IeC {\l }o: \cite {learn_opengl}\relax }}{48}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Przyk\IeC {\l }adowe ustawienia o\'swietlenia przy u\.zyciu okna ,,Scene'', \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{49}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Okno wyboru nazwy pliku do zapisu, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{49}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Okno wyboru \'scie\.zki pliku do odczytu, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{50}{figure.caption.44}%
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Przycisk stworzenia nowego modelu 3D w pasku narz\k edziowym, \'zr\'od\IeC {\l }o: opracowanie w\IeC {\l }asne\relax }}{50}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Ekran startowy programu}}{33}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Okno zmiany ustawie\'n sceny}}{34}{figure.caption.19}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Okno zmiany bie\.z\k acego materia\IeC {\l }u, jak i jego edycji}}{34}{figure.caption.20}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Okno wyboru warto\'sci koloru wraz z podgl\k adem po prawej stronie}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Okno z informacjami o dzia\IeC {\l }aniu silnika graficznego}}{35}{figure.caption.22}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Pasek nawigacyjny z wybran\k a opcj\k a ,,Window''}}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Okno ,,Material'' ze zmienionym rozmiarem przez u\.zytkownika}}{36}{figure.caption.24}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Okno ,,Material'' w wersji zminimalizowanej}}{36}{figure.caption.25}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Okno trybu edycji modelu 3D}}{37}{figure.caption.26}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Pasek nawigacyjny z wybran\k a opcj\k a ,,File''}}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Okno wczytania modeli do edytora}}{38}{figure.caption.28}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Okno zapisu aktualnego modelu 3D do pliku}}{38}{figure.caption.29}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Konsola aplikacji}}{38}{figure.caption.30}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Edytor modeli po uruchomieniu wraz z konsol\k a}}{39}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Wyb\'or okna ,,Material'' z paska narz\k edziowego}}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Prezentacja w\IeC {\l }a\'sciwo\'sci materia\IeC {\l }u w oknie ,,Material''}}{40}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Okno wyboru koloru z kwadratu kolor\'ow}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Klikni\k ecie na wybran\k a \'sciank\k e}}{41}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Wynik interakcji z opcj\k a ,,Add''}}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Klikni\k ecie na wybran\k a \'sciank\k e}}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Klikni\k ecie na wybranego woksela w celu usuni\k ecia}}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Wynik interakcji z opcj\k a ,,Remove''}}{43}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Klikni\k ecie na wybranego woksela w celu zmiany materia\IeC {\l }u}}{43}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Wynik interakcji z opcj\k a ,,Color''}}{43}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Wyb\'or okna ,,Scene'' z paska narz\k edziowego}}{44}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Przyk\IeC {\l }ad prawor\k ecznego systemu uk\IeC {\l }adu wsp\'o\IeC {\l }rz\k ednych}}{44}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Przyk\IeC {\l }adowe ustawienia o\'swietlenia przy u\.zyciu okna ,,Scene''}}{45}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Okno wyboru nazwy pliku do zapisu}}{45}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Okno wyboru \'scie\.zki pliku do odczytu}}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Przycisk stworzenia nowego modelu 3D w pasku narz\k edziowym}}{46}{figure.caption.45}%
